@@ -1,30 +1,79 @@
-# Vampire: The Masquerade 20th Anniversary Edition — Cross-Book Index
+# Vampire: The Masquerade — Cross-Book Index
 
 ## Books in this collection
+
+**V20 line** (20th Anniversary Edition, modern retrospective/reboot, published ~2011-2015):
 - `v20-core/` — Vampire: The Masquerade 20th Anniversary Edition (core rulebook), 528 pages
 - `v20-lore-clans/` — V20 Lore of the Clans, 309 pages
 - `v20-lore-bloodlines/` — V20 Lore of the Bloodlines, 103 pages
 - `v20-dark-ages/` — Vampire: The Dark Ages 20th Anniversary Edition, 489 pages
 
+**Classic Dark Ages line** (original, pre-V20, published ~1996-2002):
+- `clanbook-salubri/` — Clanbook: Salubri, 74 pages
+- `wind-from-the-east/` — Wind from the East (Dark Ages/Mongol-era supplement, also relevant to Kindred of the East — see its own README), 98 pages
+
+**Classic Revised Edition line** (original, pre-V20, modern nights, published ~1998-2000):
+- `clanbook-brujah-revised/`, `clanbook-gangrel-revised/`, `clanbook-malkavian-revised/`,
+  `clanbook-nosferatu-revised/`, `clanbook-toreador-revised/`, `clanbook-tremere-revised/`,
+  `clanbook-ventrue-revised/`, `clanbook-assamite-revised/`, `clanbook-followers-of-set-revised/`,
+  `clanbook-tzimisce-revised/`, `clanbook-lasombra-revised/`, `clanbook-giovanni-revised/`,
+  `clanbook-ravnos-revised/` — 106 pages each
+
 ## How to use this file
-This file synthesizes themes across the four books above. For details on
+This file synthesizes themes across all 19 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
-or use `scripts/query_library.py` to search across all four databases at
+or use `scripts/query_library.py` to search across several databases at
 once (see usage below).
 
-Three of these books (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`)
-describe the same "modern nights" setting (present day) and are
-substantially consistent with one another, though each is narrated by
-unreliable in-character voices who sometimes contradict each other on
-purpose. `v20-dark-ages` describes the same fictional world roughly
-750 years earlier (1242 CE), before the Camarilla or Sabbat existed —
-it shares core cosmology with the other three but depicts several
-Clans/political structures in a materially different state, since the
-modern books' history hadn't happened yet. Where the books disagree,
-that's almost always this timeline gap rather than an editing error;
-the "Points of disagreement or tension" section below is organized
-around it.
+## A note on editions and game lines — read this before cross-referencing
+
+This library spans **three distinct editions/product lines** of
+*Vampire: The Masquerade*, and they are not simply the same continuity
+at different dates — they're separate publication lines with their own
+internal consistency, written years apart by different (though
+overlapping) teams. Treat material from different lines as separate
+canons that happen to share cosmology, not as strictly compatible facts.
+
+1. **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
+   `v20-dark-ages`) is a 2011-2015 *20th Anniversary retrospective*
+   line: a consolidated, updated re-presentation of the game aimed at
+   both new and returning players, published as two internally
+   consistent sub-pairs — one for "modern nights" (present day) and one
+   for the Dark Ages period (1242 CE), each roughly 750 years apart in
+   fictional time but written and edited as a matched pair.
+2. **The classic Revised Edition line** (`clanbook-brujah-revised`
+   through `clanbook-ravnos-revised`, 13 books) is the *original*
+   modern-nights clanbook series, published c. 1998-2000, predating V20
+   by over a decade. These are the primary-source books V20's modern-
+   nights material was later distilled and updated from — expect V20 to
+   be broadly consistent with them at the level of core clan identity,
+   but with real differences in specific historical claims, elder
+   names, and plot details (V20 openly rewrites, prunes, and sometimes
+   contradicts classic-line specifics; it does not claim to be a
+   word-for-word update).
+3. **The classic Dark Ages line** (`clanbook-salubri`,
+   `wind-from-the-east`) is the *original*, pre-V20 Dark Ages product
+   line, also from the late 1990s/early 2000s. `v20-dark-ages` is
+   explicitly a later, updated edition of this same period-setting line
+   — but it is not a direct reprint. Where `clanbook-salubri` or `wind
+   from-the-east` and `v20-dark-ages` describe the same character,
+   event, or Clan, expect broad agreement on the big picture and real
+   divergence on detail; neither supersedes the other for research
+   purposes, and both are worth checking.
+
+**Practical implication:** if a question is about "the Salubri," "the
+Tremere," or any other topic covered by both a classic-line book and a
+V20 book, check which line's portrayal the person actually wants (or
+present both, flagged by line) rather than silently picking one. The
+"Points of disagreement or tension" section below calls out the sharpest
+examples.
+
+Within each line, all books describing the same setting-time are
+substantially consistent with one another, though (especially in the
+classic-line clanbooks) each is narrated by unreliable in-character
+voices who sometimes contradict each other on purpose — see "Unreliable,
+plural history" below.
 
 ## Cross-cutting themes
 
@@ -164,20 +213,124 @@ different terminology and different specific codes.
   samsara) despite the different names for adherents.
 
 ### Regional/cultural specificity over generic "medieval Europe" or "the West"
-All four books push back against a monolithic default setting, but this
-is most sustained in the Dark Ages book.
+All four V20 books push back against a monolithic default setting, but this
+is most sustained in the Dark Ages book — and the classic-line clanbooks
+extend this same instinct further still.
 - **v20-lore-clans** and **v20-lore-bloodlines** work non-European
   history and cultures into individual Clan/bloodline chapters (the
   Assamites' Islamic and Jewish religious diversity, the Ravnos's Indian
   caste system, the Tzimisce's Carpathian specificity, several African
   and Asian bloodlines in Lore of the Bloodlines).
 - **v20-dark-ages** Chapter Nine ("The Dark Medieval World") goes
-  furthest, devoting extensive space to real 1241-42 history outside
-  Western Europe — the Mongol invasion of Hungary and Rus, Lithuania's
-  pagan holdout status, Georgia's Golden Age, the Steppe peoples — and
-  Chapter Eight's Storyteller advice explicitly instructs "set your
-  chronicle in a non-Western European country" as a deliberate design
-  suggestion, not an afterthought.
+  furthest among the V20 books, devoting extensive space to real
+  1241-42 history outside Western Europe — the Mongol invasion of
+  Hungary and Rus, Lithuania's pagan holdout status, Georgia's Golden
+  Age, the Steppe peoples — and Chapter Eight's Storyteller advice
+  explicitly instructs "set your chronicle in a non-Western European
+  country" as a deliberate design suggestion, not an afterthought.
+- **wind-from-the-east** is effectively a book-length expansion of that
+  same instinct: the entire book is built around the Mongol Empire and
+  its collision with both Cainite and Wan Kuei (Kindred of the East)
+  society, treating the two cosmologies as equally important rather
+  than centering one.
+- Individual classic-line clanbooks push the same instinct further than
+  their V20 counterparts in places: **clanbook-nosferatu-revised**
+  devotes a substantial, historiographically pointed section to African
+  Nosferatu kingdoms (explicitly naming and rejecting the "Hamitic
+  Hypothesis"), and **clanbook-followers-of-set-revised** gives real
+  narrative weight to Mesoamerican (Tlacique), West African (Damballan),
+  and Indian (Naktanchara) bloodline variants rather than treating them
+  as footnotes to an Egypt/Europe-centered main line.
+
+### Saulot's diablerie: three genuinely different treatments, now including the Tremere's own voice
+The Tremere's diablerie of the Salubri founder Saulot — already tracked
+above as a Dark Ages/modern-books timeline difference — gets a third,
+starkly different treatment once the classic-line clanbooks are added,
+because two of them are written from the opposing sides of the same
+event.
+- **clanbook-salubri** (classic Dark Ages) is the victims'-eye account:
+  the clan is being actively exterminated by "the Usurpers," and the
+  book's own closing twist (Appendix Two) goes further than any other
+  book in the library by surfacing a disputed ancient tablet suggesting
+  Saulot himself may have inadvertently created the Baali — undermining
+  even the Salubri's own sympathetic self-narrative.
+- **clanbook-tremere-revised** (classic Revised) is the perpetrators'-
+  eye account, and treats the same act matter-of-factly, even
+  approvingly: a sidebar states plainly that Tremere "discovered" and
+  diablerized Saulot and calls it "a boon to all Kindred," dismissing
+  rumors that Saulot orchestrated his own death as "misguided
+  propaganda."
+- **v20-lore-clans** and **v20-dark-ages** (see "Founding-atrocity guilt"
+  above) treat the event more ambivalently and place it on a timeline —
+  neither book endorses the Tremere's self-justification the way
+  clanbook-tremere-revised does.
+Reading clanbook-salubri and clanbook-tremere-revised back to back is
+the single clearest demonstration in this library of how differently
+two clanbooks can frame the identical historical act depending on whose
+voice is narrating.
+
+### The Week of Nightmares: a Ravnos catastrophe felt clan-wide
+Three classic Revised-line clanbooks reference the same present-day
+cataclysm — the death of the Ravnos Antediluvian — from progressively
+more distant vantage points, and reading them together reconstructs the
+full event better than any single book does.
+- **clanbook-ravnos-revised** (Ch. One) is the epicenter account: a
+  first-person narrator physically visits the Bangladesh site where the
+  Antediluvian Zapathasura/Ravana died (apparently to something like
+  nuclear-scale force), describes the clan-wide four-night psychic rage
+  that swept every Ravnos simultaneously, and states outright that
+  "nearly all" the eldest Ravnos, especially in Asia, were destroyed —
+  explicitly framing the event as "the first battlefield of Gehenna."
+- **clanbook-malkavian-revised** (Ch. One) registers the same event
+  ("the Week of Nightmares") as an unexplained clan-wide sensory/
+  emotional catastrophe coinciding with the sudden failure of the
+  Malkavians' own decades-old Convention of Thorns conditioning (**the
+  Reawakening**) — the Malkavian narrator explicitly wonders whether
+  "Ravnos' death-scream was so sharp that it reached back through time
+  to caress us all," without fully understanding the cause.
+- **clanbook-gangrel-revised** (Ch. One) references the same period more
+  obliquely: Justicar Xaviar's still-unexplained, terror-driven decision
+  to withdraw the entire Gangrel clan from the Camarilla is left
+  deliberately unresolved in that book, but its timing and the Gehenna-
+  adjacent unease it provokes line up with the same moment.
+None of these three books cross-references the others by name (each
+clanbook is written to stand alone), but a Storyteller or researcher
+working across all three gets a substantially richer picture of a
+single shared event than any one book provides — a useful example of
+this library's value over reading any single sourcebook in isolation.
+
+### Carthage, again: a fourth, fifth, and sixth telling
+The Carthage disagreement already tracked above (Brujah utopia vs.
+death-cult vs. neither, across the V20 books) gets still more entries
+once the classic-line clanbooks are added, reinforcing that this is a
+deliberately, permanently unresolved point across the entire line no
+matter how many books are consulted.
+- **clanbook-brujah-revised** gives the fullest classic-line Brujah
+  account: an idealized but real port city undone as much by internal
+  decadence (Baalist rites) as by Ventrue-linked betrayal, with the
+  reformist **Promethians** faction offered as a partial counterweight
+  to the "lost golden age" framing.
+- **clanbook-toreador-revised** treats Carthage as a case study in why
+  no lesser Cainite should attempt Mycenae-style direct rule, told from
+  the Ventrue-allied Toreador side of the same war.
+- **clanbook-nosferatu-revised**, true to that clan's outsider stance,
+  is openly skeptical of the Brujah/Ventrue fixation on Carthage,
+  suggesting the emotional weight both clans put on it says more about
+  them than about the actual historical stakes.
+
+### A shared name across game lines: Zao-lat and the Wu Zao
+A specific, easy-to-miss but genuine cross-line connection: **v20-dark-
+ages**' Salubri "Watcher" caste material describes their founder as
+**Zao-lat**, a trickster who stole enlightenment from "the Ten Thousand
+Demons" in "the Middle Kingdom" and whose followers operate in East Asia
+as the "Wu Zao" (feared/mocked by the Wan Kuei). **wind-from-the-east**
+independently describes a Wan Kuei group called the **Wu Zao**, holding
+that they descend from a barbarian figure also named **Zao-lat**. This
+is very likely the same figure/lineage referenced from two different
+angles (V20's Dark Ages Salubri material and the classic-line Mongol-era
+supplement) rather than a coincidence — worth flagging explicitly if a
+question touches either the Salubri Watcher caste or the Wu Zao, since
+neither book cross-references the other directly.
 
 ## Points of agreement
 - **Core cosmology is stable across all four books**: Caine's curse,
@@ -201,50 +354,114 @@ is most sustained in the Dark Ages book.
   line, not just a modern-books habit.
 
 ## Points of disagreement or tension
-- **Carthage** (Brujah utopia vs. death-cult vs. neither — see above,
-  the clearest three-way disagreement in the library).
+- **Carthage** (Brujah utopia vs. death-cult vs. neither vs. Ventrue-
+  scale-obsession vs. outsider skepticism — see above, the single most
+  heavily and permanently contested topic in the library, spanning
+  every game line).
 - **Cappadocians/Giovanni status** (active Clan vs. destroyed — a
   timeline artifact, not a contradiction, but one that will confuse
-  answers if not flagged — see above).
+  answers if not flagged — see above). **clanbook-giovanni-revised**
+  adds a classic-line account of the founding coup itself (told from the
+  Giovanni's own gloating perspective), which the V20 books' "settled
+  history" framing doesn't include in comparable narrative detail.
 - **Salubri as Clan vs. bloodline** (still-unified three-caste Clan in
   1242 vs. nearly-extinct bloodline in the modern setting — see above).
+  **clanbook-salubri** adds a third data point: a classic-line, Dark
+  Ages-era account that is *more* pessimistic in tone than v20-dark-
+  ages' version, treating the clan as already on the edge of
+  extinction rather than merely "waning."
+- **Saulot's diablerie — victim's account vs. perpetrator's account**
+  (clanbook-salubri vs. clanbook-tremere-revised — see above, the
+  clearest example in the library of two books narrating the identical
+  event from opposing in-universe sides).
 - **Gargoyle creation timeline**: v20-dark-ages dates Tremere Gargoyle
   creation to 1121 and depicts active Tremere/Tzimisce war over it as
-  current events; the modern books (v20-lore-clans, v20-lore-bloodlines)
-  treat the Montmartre Pact (1489) ending that practice as settled
-  history, consistent with the ~250-350 year gap between the two eras'
-  settings.
-- **Malkavian founding-myth details** differ in emphasis rather than
-  outright contradiction: v20-lore-clans' "Caine's birthday party"
-  parable treats Malkav's nature as an enigmatic in-joke with Caine
-  himself, while v20-dark-ages ties Malkavian persecution more directly
-  to the real medieval Church's shifting theology of mental illness —
-  the two aren't incompatible, but a reader moving between books should
-  notice the emphasis shifts from cosmic mystery (modern) to grounded
-  period politics (Dark Ages).
+  current events; the modern books (v20-lore-clans, v20-lore-bloodlines,
+  and classic-line **clanbook-tremere-revised** and
+  **clanbook-gangrel-revised**) treat the Montmartre Pact (1489) ending
+  that practice as settled history, consistent with the gap between the
+  two eras' settings. clanbook-gangrel-revised additionally frames the
+  Gargoyles' creation as a direct atrocity against captured Gangrel
+  (not just Tzimisce), a detail not emphasized in the V20 Tremere
+  material.
+- **Malkavian founding-myth details** differ sharply not just in
+  emphasis but in basic narrative structure across the three tellings
+  now in this library: v20-lore-clans' "Caine's birthday party" parable
+  treats Malkav's nature as an enigmatic in-joke with Caine himself;
+  v20-dark-ages ties Malkavian persecution more directly to the real
+  medieval Church's shifting theology of mental illness; and classic-
+  line **clanbook-malkavian-revised** gives the most elaborate and
+  different account of all three — Malkav as one of several childer who
+  drank "the hoarded blood of the Three" and was physically torn apart
+  near Petra, with the entire modern clan's psychic hive-mind
+  ("the Cobweb") originating from his scattered blood/mind. These three
+  versions are not reconcilable as a single continuity; treat them as
+  three separate tellings, per the edition note at the top of this file.
+- **The "Watchers"/third-caste Salubri question**: v20-dark-ages
+  presents the Wu Zao/Watcher caste relatively matter-of-factly as an
+  established (if secretive) third caste; **clanbook-salubri**, an
+  earlier and differently-scoped treatment, presents the very existence
+  of a third caste as unconfirmed rumor within its own narrative, with
+  a planted letter raising the alternative possibility that "watchers"
+  are Tremere infiltrators or a manipulative internal faction rather
+  than a genuine caste. Don't treat the Watchers'/Wu Zao's existence and
+  nature as settled fact across the whole library.
+- **Editions generally**: beyond the specific points above, expect many
+  smaller factual mismatches (elder names, exact dates, minor plot
+  details) between the classic Revised-line clanbooks and V20's modern-
+  nights material covering the same clans, since V20 is a retrospective
+  rewrite rather than a reprint — see the edition note at the top of
+  this file before treating any single specific claim as cross-line
+  consensus.
 
 ## Chronology / influence
-Reading order for someone new to this line: `v20-core` first (it
-defines the baseline modern-nights cosmology, Sects, and full game
-system that the two Lore books assume you already know), then
-`v20-lore-clans` and `v20-lore-bloodlines` in either order (both expand
-individual Clans/bloodlines within that same modern setting), then
-`v20-dark-ages` last if the goal is to see how the setting's deep
-history diverges from what the other three books describe as settled
-fact. `v20-dark-ages` is a fully standalone rulebook, though, and works
-fine read first if the Dark Medieval period is the primary interest —
-its own book_index.md doesn't assume familiarity with the other three.
+Reading order for someone new to this whole library: start with
+whichever **line** matches the setting-time you actually care about
+(see the edition note near the top of this file) rather than mixing
+lines together by default.
+
+- **New to V20 specifically**: `v20-core` first (it defines the
+  baseline modern-nights cosmology, Sects, and full game system that the
+  two Lore books assume you already know), then `v20-lore-clans` and
+  `v20-lore-bloodlines` in either order, then `v20-dark-ages` last if
+  the goal is to see how the setting's deep history diverges from what
+  the other three books describe as settled fact. `v20-dark-ages` is a
+  fully standalone rulebook and works fine read first if the Dark
+  Medieval period is the primary interest.
+- **New to the classic Revised-line modern-nights clanbooks**: each of
+  the 13 (`clanbook-brujah-revised` through `clanbook-ravnos-revised`)
+  is fully standalone — there's no dependency chain. If tracing the
+  "Week of Nightmares"/Antediluvian-death thread specifically, read
+  `clanbook-ravnos-revised` first (the epicenter account) before
+  `clanbook-malkavian-revised` and `clanbook-gangrel-revised` (which
+  reference it more obliquely).
+- **New to the classic Dark Ages line**: `clanbook-salubri` and
+  `wind-from-the-east` are both standalone; read them before or after
+  `v20-dark-ages` as suits the question — they cover overlapping ground
+  from an earlier, differently-scoped product line rather than serving
+  as prerequisites for it.
+- **Cross-line research** (e.g. "how does the Salubri/Tremere conflict
+  differ across every book that covers it?"): read this file's relevant
+  synthesis section first, then pull the specific books it names.
 
 ## Cross-book query examples
 ```bash
 python3 scripts/query_library.py v20-core/book_chunks.db v20-lore-clans/book_chunks.db v20-lore-bloodlines/book_chunks.db v20-dark-ages/book_chunks.db "Carthage"
 ```
 ```bash
-python3 scripts/query_library.py v20-lore-clans/book_chunks.db v20-dark-ages/book_chunks.db "Saulot"
+python3 scripts/query_library.py v20-lore-clans/book_chunks.db v20-dark-ages/book_chunks.db clanbook-salubri/book_chunks.db clanbook-tremere-revised/book_chunks.db "Saulot"
 ```
 ```bash
 python3 scripts/query_library.py v20-core/book_chunks.db v20-dark-ages/book_chunks.db "Golconda"
 ```
-(Replace the slug paths with whichever subset of the four books is
-relevant to the question — the slug names shown above are what appears
-in the grouped results, so use them as written.)
+```bash
+python3 scripts/query_library.py clanbook-ravnos-revised/book_chunks.db clanbook-malkavian-revised/book_chunks.db clanbook-gangrel-revised/book_chunks.db "Week of Nightmares"
+```
+```bash
+python3 scripts/query_library.py v20-dark-ages/book_chunks.db wind-from-the-east/book_chunks.db "Zao-lat"
+```
+(Replace the slug paths with whichever subset of books is relevant to
+the question — the slug names shown above are what appears in the
+grouped results, so use them as written. With 19 books in the library,
+prefer naming only the 2-5 books actually relevant to a question rather
+than querying all of them at once.)
