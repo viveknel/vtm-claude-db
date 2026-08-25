@@ -11,6 +11,7 @@
 **Classic Dark Ages line** (original, pre-V20, published ~1996-2002):
 - `clanbook-salubri/` — Clanbook: Salubri, 74 pages
 - `wind-from-the-east/` — Wind from the East (Dark Ages/Mongol-era supplement, also relevant to Kindred of the East — see its own README), 98 pages
+- `dark-ages-inquisitor/` — Dark Ages: Inquisitor (a *hunters'*-side sourcebook — the shadow Inquisition that fights Cainites — for the original, pre-V20 *Dark Ages: Vampire*, which it explicitly requires to play), 245 pages
 
 **Classic Revised Edition line** (original, pre-V20, modern nights, published ~1998-2000):
 - `clanbook-brujah-revised/`, `clanbook-gangrel-revised/`, `clanbook-malkavian-revised/`,
@@ -20,7 +21,7 @@
   `clanbook-ravnos-revised/` — 106 pages each
 
 ## How to use this file
-This file synthesizes themes across all 19 books above. For details on
+This file synthesizes themes across all 20 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
 or use `scripts/query_library.py` to search across several databases at
@@ -53,14 +54,21 @@ canons that happen to share cosmology, not as strictly compatible facts.
    contradicts classic-line specifics; it does not claim to be a
    word-for-word update).
 3. **The classic Dark Ages line** (`clanbook-salubri`,
-   `wind-from-the-east`) is the *original*, pre-V20 Dark Ages product
-   line, also from the late 1990s/early 2000s. `v20-dark-ages` is
-   explicitly a later, updated edition of this same period-setting line
-   — but it is not a direct reprint. Where `clanbook-salubri` or `wind
-   from-the-east` and `v20-dark-ages` describe the same character,
-   event, or Clan, expect broad agreement on the big picture and real
-   divergence on detail; neither supersedes the other for research
-   purposes, and both are worth checking.
+   `wind-from-the-east`, `dark-ages-inquisitor`) is the *original*,
+   pre-V20 Dark Ages product line, also from the late 1990s/early 2000s.
+   `v20-dark-ages` is explicitly a later, updated edition of this same
+   period-setting line — but it is not a direct reprint. Where
+   `clanbook-salubri` or `wind-from-the-east` and `v20-dark-ages`
+   describe the same character, event, or Clan, expect broad agreement
+   on the big picture and real divergence on detail; neither supersedes
+   the other for research purposes, and both are worth checking.
+   `dark-ages-inquisitor` carries the strongest edition dependency of
+   the three: it explicitly states it is not a complete game and
+   requires the *original* *Dark Ages: Vampire* core rulebook to play,
+   using that book's classic Storyteller System rather than V20's
+   revised traits. Treat it as tied to the classic-line rules, not to
+   `v20-dark-ages`, even though both cover the same broad historical
+   period.
 
 **Practical implication:** if a question is about "the Salubri," "the
 Tremere," or any other topic covered by both a classic-line book and a
@@ -332,6 +340,50 @@ supplement) rather than a coincidence — worth flagging explicitly if a
 question touches either the Salubri Watcher caste or the Wu Zao, since
 neither book cross-references the other directly.
 
+### The view from the other side: Dark Ages: Inquisitor's hunters
+Every other book in this library is written from a Kindred (or, in
+wind-from-the-east's case, partly Wan Kuei) point of view — even their
+unreliable narrators are vampires disagreeing with other vampires.
+**dark-ages-inquisitor** is the library's only book narrated by the
+people hunting Cainites rather than by Cainites themselves, and it adds
+a genuinely new kind of unreliability on top of the library's existing
+"plural history" pattern: its narrators often don't know they're looking
+at a vampire at all. Its Prelude has an Oculi Dei "Eye" watch a "night-
+devil" feed on a girl without being able to name what he's seeing; its
+Chapter One bestiary folds vampires into a broader "Demons of Flesh"
+category alongside monstrous swamp-creatures and werewolves, with
+"blood-drinking horror" as only a passing aside rather than a
+headline distinction. Anyone answering a question like "how did
+contemporaries understand vampires" should check this book specifically
+— it is the library's only source written from genuine mortal ignorance
+rather than after-the-fact Kindred hindsight.
+
+### The Cainite Heresy: the same name, two different emphases, in two different lines
+dark-ages-inquisitor's central ongoing plot hook — the **Cainite
+Heresy**, a cult that treats Cainites as blessed or angelic beings
+descended from Cain, run in this book through the **Crimson Curia** (a
+secret conspiracy of Cainites embedded within the Church hierarchy
+itself) — is not a one-off invention specific to this book. **v20-
+dark-ages** (Ch. Two: Clans of Caine, Lasombra entry, p.51) independently
+describes its own "Cainite Heresy": a cult "dominated by Lasombra
+priests and bishops" who believe "Cainites, having been marked by God,
+are akin to angelic beings," treated as blasphemy by orthodox Lasombra
+and a driver of the clan's internal Shadow Reconquista schism. Neither
+book names the other's specific machinery (v20-dark-ages never mentions
+a "Crimson Curia"; dark-ages-inquisitor never names the Lasombra as the
+Heresy's source), but both independently arrive at the same core claim —
+that vampirism itself can be preached as a mark of divine favor rather
+than a curse — from opposite vantage points: v20-dark-ages frames it as
+an *internal* Lasombra theological schism, while dark-ages-inquisitor
+frames it as a mortal-facing recruiting cult that inquisitors partially
+uncover from the outside. Read together, they suggest the Heresy is
+bigger and more decentralized than either book alone implies — worth
+flagging explicitly rather than picking one book's framing as the
+complete picture. None of dark-ages-inquisitor's other named Cainites
+(Xalbador, the Pale Brother, Ulfila/"St. Amanda," Radovan Istvic, the
+Genoese d'Agostino family) currently appear in any other book in this
+library.
+
 ## Points of agreement
 - **Core cosmology is stable across all four books**: Caine's curse,
   the Second/Third Generation Antediluvian structure, Gehenna as
@@ -352,6 +404,13 @@ neither book cross-references the other directly.
   faction its own unfiltered voice to complicate the "official" Clan
   narrative — this is a consistent authorial technique across the whole
   line, not just a modern-books habit.
+- **dark-ages-inquisitor's outsider theology matches the insiders'
+  cosmology**: the Cainite Heresy's account of vampires as "Cain's
+  heirs," sustained by the "shining blood" and organized around the "See
+  of Nod," lines up with Caine's curse and Book of Nod material as
+  described from the inside by every other book in the library, even
+  though dark-ages-inquisitor's narrators never have full or reliable
+  access to that inside view themselves.
 
 ## Points of disagreement or tension
 - **Carthage** (Brujah utopia vs. death-cult vs. neither vs. Ventrue-
@@ -406,6 +465,11 @@ neither book cross-references the other directly.
   are Tremere infiltrators or a manipulative internal faction rather
   than a genuine caste. Don't treat the Watchers'/Wu Zao's existence and
   nature as settled fact across the whole library.
+- **The Cainite Heresy's source** (an internal Lasombra clergy schism in
+  v20-dark-ages vs. a Church-wide Crimson Curia conspiracy in
+  dark-ages-inquisitor — see above; not a contradiction so much as two
+  books each describing one piece of a larger, decentralized movement
+  neither fully maps).
 - **Editions generally**: beyond the specific points above, expect many
   smaller factual mismatches (elder names, exact dates, minor plot
   details) between the classic Revised-line clanbooks and V20's modern-
@@ -439,7 +503,15 @@ lines together by default.
   `wind-from-the-east` are both standalone; read them before or after
   `v20-dark-ages` as suits the question — they cover overlapping ground
   from an earlier, differently-scoped product line rather than serving
-  as prerequisites for it.
+  as prerequisites for it. `dark-ages-inquisitor` is also standalone for
+  research purposes (its own book_index.md doesn't require the others),
+  but remember it's a rules supplement to the *original* Dark Ages:
+  Vampire specifically — if a question is about game mechanics rather
+  than setting lore, don't mix its answers with `v20-dark-ages`.
+- **Researching how mortals/hunters perceived Cainites**:
+  `dark-ages-inquisitor` is the only book in the library written from
+  that vantage point — start there rather than trying to extract an
+  outsider's view from the Kindred-narrated books.
 - **Cross-line research** (e.g. "how does the Salubri/Tremere conflict
   differ across every book that covers it?"): read this file's relevant
   synthesis section first, then pull the specific books it names.
@@ -460,8 +532,11 @@ python3 scripts/query_library.py clanbook-ravnos-revised/book_chunks.db clanbook
 ```bash
 python3 scripts/query_library.py v20-dark-ages/book_chunks.db wind-from-the-east/book_chunks.db "Zao-lat"
 ```
+```bash
+python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-dark-ages/book_chunks.db "Cainite Heresy"
+```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 19 books in the library,
+grouped results, so use them as written. With 20 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once.)

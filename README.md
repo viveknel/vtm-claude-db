@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 19 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 20 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -10,7 +10,7 @@ Built with Anthropic's [book-indexer skill](https://github.com/anthropics/skills
 (Claude reads each source PDF once, extracts and tags its text, then
 writes a thematic index and a queryable chunk database from it).
 
-## Two things to know before using this library
+## Three things to know before using this library
 
 **1. This library spans three different editions/product lines, not one
 continuity.** See `library_index.md`'s "A note on editions and game
@@ -24,10 +24,11 @@ lines" section for the full explanation, but briefly:
   later, edited retelling of much of what these books cover — expect
   broad agreement on core clan identity but real differences in
   specific historical claims and details.
-- **Classic Dark Ages** (`clanbook-salubri`, `wind-from-the-east`) — the
-  *original*, pre-V20 Dark Ages product line, also from the late
-  1990s/early 2000s. `v20-dark-ages` is a later, updated edition of this
-  same period-setting line, not a direct reprint.
+- **Classic Dark Ages** (`clanbook-salubri`, `wind-from-the-east`,
+  `dark-ages-inquisitor`) — the *original*, pre-V20 Dark Ages product
+  line, also from the late 1990s/early 2000s. `v20-dark-ages` is a
+  later, updated edition of this same period-setting line, not a direct
+  reprint.
 
 Treat these as related but separate canons. When a question could be
 answered from more than one line, check which one the person actually
@@ -43,6 +44,17 @@ this same book will be bundled there too, since it's equally relevant to
 both. Its `book_index.md` and `book_chunks.db` here cover the entire
 book (both halves) — no need to treat the two halves separately or to
 look elsewhere for its Kindred of the East content.
+
+**3. `dark-ages-inquisitor` is a rules-dependent hunters'-side book, not
+a Kindred sourcebook.** Every other book in this library describes the
+setting from a vampire's-eye view. `dark-ages-inquisitor` is the shadow
+Inquisition's own sourcebook — the mortal hunters who fight Cainites —
+and it explicitly requires the *original* *Dark Ages: Vampire* core
+rulebook to play (classic Storyteller System, not V20's revised traits).
+Don't treat its game mechanics as compatible with `v20-dark-ages`, and
+expect its narrators to often describe vampires without fully
+recognizing them as such — that's a deliberate feature of the book, not
+a gap in this bundle's indexing.
 
 ## What's in here
 
@@ -61,6 +73,7 @@ look elsewhere for its Kindred of the East content.
 |---|---|---|
 | Clanbook: Salubri | `clanbook-salubri/` | 74 |
 | Wind from the East (Dark Ages / Kindred of the East crossover) | `wind-from-the-east/` | 98 |
+| Dark Ages: Inquisitor (hunters'-side sourcebook, classic-line rules) | `dark-ages-inquisitor/` | 245 |
 
 **Classic Revised Edition line:**
 
@@ -84,7 +97,7 @@ look elsewhere for its Kindred of the East content.
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 19 books
+│                                agreements, and disagreements across all 20 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -98,6 +111,7 @@ look elsewhere for its Kindred of the East content.
 ├── v20-dark-ages/
 ├── clanbook-salubri/
 ├── wind-from-the-east/
+├── dark-ages-inquisitor/
 ├── clanbook-brujah-revised/
 ├── clanbook-gangrel-revised/
 ├── clanbook-malkavian-revised/
@@ -169,7 +183,7 @@ extra packages to install).
   Saulot's diablerie), `library_index.md` calls this out explicitly
   rather than silently picking one version — see its "Points of
   disagreement or tension" section.
-- See "Two things to know before using this library" above before
+- See "Three things to know before using this library" above before
   treating any claim as consistent across the whole collection.
 
 ## Adding another related book later
