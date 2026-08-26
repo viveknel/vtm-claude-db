@@ -11,7 +11,7 @@
 **Classic Dark Ages line** (original, pre-V20, published ~1996-2002):
 - `clanbook-salubri/` — Clanbook: Salubri, 74 pages
 - `wind-from-the-east/` — Wind from the East (Dark Ages/Mongol-era supplement, also relevant to Kindred of the East — see its own README), 98 pages
-- `dark-ages-inquisitor/` — Dark Ages: Inquisitor (a *hunters'*-side sourcebook — the shadow Inquisition that fights Cainites — for the original, pre-V20 *Dark Ages: Vampire*, which it explicitly requires to play), 245 pages
+- `dark-ages-inquisitor/` — Dark Ages: Inquisitor (a *hunters'*-side sourcebook — the shadow Inquisition that fights Cainites — for the original, pre-V20 *Dark Ages: Vampire*, which it explicitly requires to play), 245 pages. Bundle also includes `dark-ages-inquisitor-v20-conversion.md`, a fan analysis/house-rule package for running this book at a V20 table — see "A note on editions and game lines" below and that bundle's own README.
 
 **Classic Revised Edition line** (original, pre-V20, modern nights, published ~1998-2000):
 - `clanbook-brujah-revised/`, `clanbook-gangrel-revised/`, `clanbook-malkavian-revised/`,
@@ -69,6 +69,22 @@ canons that happen to share cosmology, not as strictly compatible facts.
    revised traits. Treat it as tied to the classic-line rules, not to
    `v20-dark-ages`, even though both cover the same broad historical
    period.
+
+   That said, the practical gap for anyone wanting to *run* the book at
+   a V20 table is narrower than the disclaimer implies. The
+   `dark-ages-inquisitor` bundle includes `v20-conversion.md`, which
+   finds that core resolution mechanics (dice pools, difficulty 6,
+   Virtues, Willpower, Health) and this book's mortal-tier character
+   creation numbers already match V20 as written — the chargen figures
+   line up with V20's own ghoul/mortal creation rules, not the
+   higher full-vampire budget some might expect to compare them against.
+   What doesn't carry over cleanly is this book's own hunter-specific
+   subsystem (Superior Virtues, Conviction, Piety, Curses, Cocytus),
+   which has no V20 counterpart to reconcile against and has to be
+   imported as-is, plus True Faith handling and some Merits & Flaws
+   catalog drift. For any question specifically about running this book
+   under V20 rules, prefer `v20-conversion.md` over inferring an answer
+   from the edition-dependency framing here.
 
 **Practical implication:** if a question is about "the Salubri," "the
 Tremere," or any other topic covered by both a classic-line book and a
@@ -507,7 +523,10 @@ lines together by default.
   research purposes (its own book_index.md doesn't require the others),
   but remember it's a rules supplement to the *original* Dark Ages:
   Vampire specifically — if a question is about game mechanics rather
-  than setting lore, don't mix its answers with `v20-dark-ages`.
+  than setting lore, don't mix its answers with `v20-dark-ages`. If the
+  question is specifically about running this book's mechanics *under*
+  V20, read `dark-ages-inquisitor/v20-conversion.md` instead of
+  reasoning about compatibility from first principles.
 - **Researching how mortals/hunters perceived Cainites**:
   `dark-ages-inquisitor` is the only book in the library written from
   that vantage point — start there rather than trying to extract an

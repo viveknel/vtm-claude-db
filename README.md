@@ -46,15 +46,29 @@ book (both halves) — no need to treat the two halves separately or to
 look elsewhere for its Kindred of the East content.
 
 **3. `dark-ages-inquisitor` is a rules-dependent hunters'-side book, not
-a Kindred sourcebook.** Every other book in this library describes the
-setting from a vampire's-eye view. `dark-ages-inquisitor` is the shadow
-Inquisition's own sourcebook — the mortal hunters who fight Cainites —
-and it explicitly requires the *original* *Dark Ages: Vampire* core
-rulebook to play (classic Storyteller System, not V20's revised traits).
-Don't treat its game mechanics as compatible with `v20-dark-ages`, and
-expect its narrators to often describe vampires without fully
-recognizing them as such — that's a deliberate feature of the book, not
-a gap in this bundle's indexing.
+a Kindred sourcebook — but its bundle also includes a V20 conversion
+guide.** Every other book in this library describes the setting from a
+vampire's-eye view. `dark-ages-inquisitor` is the shadow Inquisition's
+own sourcebook — the mortal hunters who fight Cainites — and it
+explicitly requires the *original* *Dark Ages: Vampire* core rulebook to
+play (classic Storyteller System, not V20's revised traits). Don't
+assume its game mechanics are compatible with `v20-dark-ages` without
+checking; and expect its narrators to often describe vampires without
+fully recognizing them as such — that's a deliberate feature of the book,
+not a gap in this bundle's indexing.
+
+That "don't assume compatible" caution is about the source PDF as
+written, not the last word on the subject: the `dark-ages-inquisitor`
+bundle also contains `v20-conversion.md`, a fan analysis that works out
+specifically where this book's rules do and don't line up with V20 and
+gives a house-rule package for running it at a V20 table. Its headline
+finding is that the gap is smaller than the disclaimer suggests — core
+mechanics and this book's mortal-tier chargen numbers already match V20
+(against V20's own mortal/ghoul rules, not the full-vampire budget); the
+real gaps are the book's own Superior Virtues/Conviction/Piety/Curses
+subsystem (nothing in V20 to check it against), True Faith overlap, and
+Merits & Flaws catalog drift. For any V20-compatibility question, go to
+that file rather than this README's summary.
 
 ## What's in here
 
@@ -73,7 +87,7 @@ a gap in this bundle's indexing.
 |---|---|---|
 | Clanbook: Salubri | `clanbook-salubri/` | 74 |
 | Wind from the East (Dark Ages / Kindred of the East crossover) | `wind-from-the-east/` | 98 |
-| Dark Ages: Inquisitor (hunters'-side sourcebook, classic-line rules) | `dark-ages-inquisitor/` | 245 |
+| Dark Ages: Inquisitor (hunters'-side sourcebook, classic-line rules; bundle also includes a V20 conversion guide) | `dark-ages-inquisitor/` | 245 |
 
 **Classic Revised Edition line:**
 
@@ -125,7 +139,9 @@ a gap in this bundle's indexing.
 ├── clanbook-lasombra-revised/
 ├── clanbook-giovanni-revised/
 └── clanbook-ravnos-revised/
-    (each of the above folders has the same four items as v20-core/)
+    (each of the above folders has the same four items as v20-core/,
+    except dark-ages-inquisitor/, which has a fifth: v20-conversion.md —
+    see that folder's own README.md)
 ```
 
 Every book folder is a complete, self-contained bundle — any one of

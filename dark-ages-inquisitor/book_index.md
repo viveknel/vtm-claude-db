@@ -5,6 +5,18 @@ This is a thematic index. For exact quotes or precise facts, query
 book_chunks.db (see README.md in this bundle for query examples) rather
 than relying on the summaries below.
 
+**For V20 rules-compatibility or conversion questions, use
+`dark-ages-inquisitor-v20-conversion.md` instead of this file.** This index describes what
+the book says as written for the classic, pre-V20 Storyteller System;
+it does not cover how to run the book under V20. `v20-conversion.md`
+(in this same bundle) analyzes the specific mechanical gaps between
+this book and V20 — the Superior Virtues/Conviction/Piety/Curses
+subsystem, True Faith handling, and Merits & Flaws catalog drift — and
+gives a house-rule package to reconcile them, including a correction of
+an initial pass that mistakenly flagged this book's chargen point
+budget as V20-incompatible (checked against V20's own mortal/ghoul
+chargen rules, the numbers already match).
+
 ## Overview
 *Dark Ages: Inquisitor* (White Wolf, 2002) is a sourcebook for the
 **original, pre-V20** *Vampire: The Dark Ages* line — the book states
@@ -403,6 +415,20 @@ letters or `clanbook-salubri`'s frame-narrative scrivener device — here
 the unreliability is not in the narrators disagreeing with each other,
 but in the reader being invited to believe a *secret* layer sits behind
 *documented* events.
+
+## Rules compatibility with V20
+See `v20-conversion.md` in this bundle for the full analysis. Briefly:
+this book's core resolution mechanics (dice pools, difficulty 6
+baseline, the three Virtues on a 1-5 scale, Willpower, Health) and its
+mortal-tier character creation numbers (Attributes 6/4/3, Abilities
+11/7/4, 21 freebie points) already match V20 — the latter matches V20's
+own ghoul/mortal chargen rules exactly, not the higher full-vampire
+budget. What genuinely doesn't carry over without a house rule: the
+Superior Virtues/Conviction/Piety/Curses subsystem (no V20 equivalent
+exists to check it against), True Faith (V20's version and this book's
+Superior Virtues both do similar work and can overlap if not
+reconciled), and some entries in the Merits & Flaws catalog (V20
+revised its own list after this book was written).
 
 ## Glossary / key terms index
 - **Anathemae** — Oculi Dei's Curse category (p.204-205)
