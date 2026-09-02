@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 20 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 21 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -16,8 +16,11 @@ writes a thematic index and a queryable chunk database from it).
 continuity.** See `library_index.md`'s "A note on editions and game
 lines" section for the full explanation, but briefly:
 - **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-  `v20-dark-ages`) — the 2011-2015 *20th Anniversary Edition*, a later
-  retrospective/updated presentation of the game.
+  `v20-dark-ages`, `v20-dark-ages-companion`) — the 2011-2015 *20th
+  Anniversary Edition*, a later retrospective/updated presentation of
+  the game. `v20-dark-ages-companion` is a direct expansion of
+  `v20-dark-ages` (six new domains plus Storyteller toolkit), not an
+  independent setting book.
 - **Classic Revised Edition** (the 13 `clanbook-*-revised` books) — the
   *original* modern-nights clanbook line, published c. 1998-2000,
   predating V20 by over a decade. V20's modern-nights material is a
@@ -80,6 +83,7 @@ that file rather than this README's summary.
 | V20 Lore of the Clans | `v20-lore-clans/` | 309 |
 | V20 Lore of the Bloodlines | `v20-lore-bloodlines/` | 103 |
 | Vampire: The Dark Ages 20th Anniversary Edition | `v20-dark-ages/` | 489 |
+| V20 Dark Ages Companion (companion to the above — six domains, Storyteller toolkit) | `v20-dark-ages-companion/` | 133 |
 
 **Classic Dark Ages line:**
 
@@ -111,7 +115,7 @@ that file rather than this README's summary.
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 20 books
+│                                agreements, and disagreements across all 21 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -123,6 +127,7 @@ that file rather than this README's summary.
 ├── v20-lore-clans/
 ├── v20-lore-bloodlines/
 ├── v20-dark-ages/
+├── v20-dark-ages-companion/
 ├── clanbook-salubri/
 ├── wind-from-the-east/
 ├── dark-ages-inquisitor/

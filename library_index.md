@@ -7,6 +7,10 @@
 - `v20-lore-clans/` — V20 Lore of the Clans, 309 pages
 - `v20-lore-bloodlines/` — V20 Lore of the Bloodlines, 103 pages
 - `v20-dark-ages/` — Vampire: The Dark Ages 20th Anniversary Edition, 489 pages
+- `v20-dark-ages-companion/` — V20 Dark Ages Companion (six domain profiles —
+  Rome, Bath, Bjarkarey, Constantinople, Mogadishu, Mangaluru — plus
+  Storyteller domain-building and combat rules; a direct companion to
+  `v20-dark-ages`, not a standalone setting book), 133 pages
 
 **Classic Dark Ages line** (original, pre-V20, published ~1996-2002):
 - `clanbook-salubri/` — Clanbook: Salubri, 74 pages
@@ -21,7 +25,7 @@
   `clanbook-ravnos-revised/` — 106 pages each
 
 ## How to use this file
-This file synthesizes themes across all 20 books above. For details on
+This file synthesizes themes across all 21 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
 or use `scripts/query_library.py` to search across several databases at
@@ -37,12 +41,17 @@ overlapping) teams. Treat material from different lines as separate
 canons that happen to share cosmology, not as strictly compatible facts.
 
 1. **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-   `v20-dark-ages`) is a 2011-2015 *20th Anniversary retrospective*
-   line: a consolidated, updated re-presentation of the game aimed at
-   both new and returning players, published as two internally
-   consistent sub-pairs — one for "modern nights" (present day) and one
-   for the Dark Ages period (1242 CE), each roughly 750 years apart in
-   fictional time but written and edited as a matched pair.
+   `v20-dark-ages`, `v20-dark-ages-companion`) is a 2011-2015 *20th
+   Anniversary retrospective* line: a consolidated, updated
+   re-presentation of the game aimed at both new and returning players,
+   published as two internally consistent sub-pairs — one for "modern
+   nights" (present day) and one for the Dark Ages period (1242 CE),
+   each roughly 750 years apart in fictional time but written and
+   edited as a matched pair. `v20-dark-ages-companion` is not a third,
+   independent sub-pair member — it's a direct expansion of
+   `v20-dark-ages` specifically (six new domains plus Storyteller
+   toolkit), sharing that book's exact setting-date and cosmology
+   rather than adding a new one.
 2. **The classic Revised Edition line** (`clanbook-brujah-revised`
    through `clanbook-ravnos-revised`, 13 books) is the *original*
    modern-nights clanbook series, published c. 1998-2000, predating V20
@@ -400,6 +409,81 @@ complete picture. None of dark-ages-inquisitor's other named Cainites
 Genoese d'Agostino family) currently appear in any other book in this
 library.
 
+**v20-dark-ages-companion** adds a third, individual-level data point
+that complicates the "Lasombra schism" framing specifically: **Bethany
+of Ely**, an Eighth Generation *Salubri* Healer (not a Lasombra), is
+described as having "led the Cainite Heresy's believers in Ely" in
+England before Tremere persecution broke her faith and drove her into
+Mithraist exile in Bath (v20-dark-ages-companion, Ch. Two: The Domain
+of Bath, p.29-30; she resurfaces via a letter to an exiled friend in
+Ch. Six's Salubri Apocrypha, p.99). Her account is a convert's-eye
+view of leaving the Heresy, not an institutional description of
+running or hunting it, and her Clan membership shows the Heresy
+recruited outside Lasombra ranks — neither v20-dark-ages nor
+dark-ages-inquisitor rules this out, but neither depicts it either.
+Treat Bethany as evidence the Heresy was more doctrinally porous than
+its Lasombra-clergy reputation suggests, not as a contradiction of
+either book's framing.
+
+### The Dream of Constantinople: a Methuselah v20-dark-ages only mentions in passing, now fully realized
+v20-dark-ages' Appendix B briefly describes the Obertus Tzimisce as
+"fostered by the Methuselah Dracon" and notes they were "scattered,
+temporarily rudderless" once Constantinople fell and "Dracon was cast
+out" (v20-dark-ages, Appendix B, Tzimisce revenant-families entry,
+p.455) — a single-paragraph aside with no further explanation of who
+the Dracon was or what happened in Constantinople. **v20-dark-ages-companion**'s entire Chapter Four is
+built around exactly this event: the Dracon, the Toreador Methuselah
+Michael the Patriarch, and the Ventrue Antonius once ruled
+Constantinople together as "the Dream," a Cainite-kine utopia that
+collapsed when Michael's madness, the Dracon's disappearance, and the
+1204 sack unraveled it (v20-dark-ages-companion, Ch. Four, p.58-59).
+Nothing in the fuller account contradicts v20-dark-ages' aside — the
+Companion is simply the library's only source that develops it, and
+should be treated as the primary reference for any question about the
+Dracon, Michael, or the Obertus' pre-scattering history.
+
+### Single throwaway lines elsewhere, fully worked out in the Companion
+Beyond Constantinople, v20-dark-ages-companion has a recurring habit of
+taking a sentence-length mention from an earlier book in this library
+and building an entire subsystem around it, without contradicting the
+source:
+- **v20-lore-clans** notes in passing that some Assamites practice
+  "Zoroastrianism" among several religions the Clan tolerates (v20-lore-
+  clans, The Assamites, p.19). **v20-dark-ages-companion**'s Assamite
+  Apocrypha (Ch. Five, p.83-85) turns this into a full dual **Road of
+  Zarathustra** system (Road of Angra Mainyu / Road of Ahura Mazda,
+  with a one-time free switch between them) plus its own internal
+  history (Zarathustra, the martyr Tehmina, the elder Ur-Shulgi).
+- **clanbook-ravnos-revised** mentions in passing that "among the most
+  traditional Ravnos, mortal lineage" — **jati** — "is at least as
+  important as Kindred" (clanbook-ravnos-revised, Ch. Two, p.41), without
+  naming any specific jati. **v20-dark-ages-companion**'s Ravnos
+  Apocrypha (Ch. Six, p.100-103) names several (Alexandrites,
+  Phaedymites, Bashirites, Sybarites, Yoryari, Phuri Dae) and builds out
+  the **Sadhana** blood-magic tradition (Blood Nectar, the five-level
+  Power of Karma) two of these jati are said to practice.
+For any question about Zoroastrian Cainites or Ravnos jati structure,
+prefer the Companion's fuller treatment; for the Clan-level context
+those details sit inside, the original books remain the right source.
+
+### The Salubri's fortunes vary sharply by region within the same 1242 setting
+This is a different kind of variation from the "Salubri as Clan vs.
+bloodline" timeline question below — it's not a disagreement between
+books, but a detail that only becomes visible once v20-dark-ages-
+companion is added: even within a single shared setting-date (1242
+CE), the Salubri's circumstances differ drastically by domain.
+v20-dark-ages-companion's Mangaluru chapter (Ch. Six) depicts a still-
+unified, openly ruling Salubri caste-triumvirate member, consistent
+with v20-dark-ages' broader claim that the Clan is "waning" rather than
+already destroyed in the Dark Ages — but its Bath chapter (Ch. Two)
+depicts persecuted Salubri refugees sheltering under a foreign Prince's
+mercy, and its Constantinople chapter (Ch. Four) depicts a lone Salubri
+(Rakhama) hiding her identity while secretly hunting the Skull of
+Saulot. Read together, the three domains suggest a Clan whose global
+decline (agreed upon across the V20 line) was locally uneven rather
+than uniform — Mangaluru as a still-thriving stronghold, Bath and
+Constantinople as evidence of the diaspora already underway elsewhere.
+
 ## Points of agreement
 - **Core cosmology is stable across all four books**: Caine's curse,
   the Second/Third Generation Antediluvian structure, Gehenna as
@@ -485,7 +569,10 @@ library.
   v20-dark-ages vs. a Church-wide Crimson Curia conspiracy in
   dark-ages-inquisitor — see above; not a contradiction so much as two
   books each describing one piece of a larger, decentralized movement
-  neither fully maps).
+  neither fully maps). **v20-dark-ages-companion** adds a third,
+  individual data point: Bethany of Ely, a Salubri (not Lasombra) who
+  led Heresy believers in England before renouncing the faith — evidence
+  the movement recruited outside Lasombra ranks.
 - **Editions generally**: beyond the specific points above, expect many
   smaller factual mismatches (elder names, exact dates, minor plot
   details) between the classic Revised-line clanbooks and V20's modern-
@@ -507,7 +594,10 @@ lines together by default.
   the goal is to see how the setting's deep history diverges from what
   the other three books describe as settled fact. `v20-dark-ages` is a
   fully standalone rulebook and works fine read first if the Dark
-  Medieval period is the primary interest.
+  Medieval period is the primary interest. Read `v20-dark-ages-companion`
+  after `v20-dark-ages`, not before or standalone — it assumes the core
+  book's cosmology, Roads, and rules and adds domains/Apocrypha on top
+  rather than re-explaining the setting.
 - **New to the classic Revised-line modern-nights clanbooks**: each of
   the 13 (`clanbook-brujah-revised` through `clanbook-ravnos-revised`)
   is fully standalone — there's no dependency chain. If tracing the
@@ -554,8 +644,17 @@ python3 scripts/query_library.py v20-dark-ages/book_chunks.db wind-from-the-east
 ```bash
 python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-dark-ages/book_chunks.db "Cainite Heresy"
 ```
+```bash
+python3 scripts/query_library.py v20-dark-ages/book_chunks.db v20-dark-ages-companion/book_chunks.db "Dracon"
+```
+```bash
+python3 scripts/query_library.py v20-lore-clans/book_chunks.db v20-dark-ages-companion/book_chunks.db "Zoroastrian"
+```
+```bash
+python3 scripts/query_library.py clanbook-ravnos-revised/book_chunks.db v20-dark-ages-companion/book_chunks.db "jati"
+```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 20 books in the library,
+grouped results, so use them as written. With 21 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once.)
