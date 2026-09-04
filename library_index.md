@@ -11,6 +11,10 @@
   Rome, Bath, Bjarkarey, Constantinople, Mogadishu, Mangaluru — plus
   Storyteller domain-building and combat rules; a direct companion to
   `v20-dark-ages`, not a standalone setting book), 133 pages
+- `v20-hunters-hunted-ii/` — The Hunters Hunted II (modern-nights mortal
+  hunters: character creation, tactics, Numina powers, and detailed
+  hunter-organization write-ups — the modern-day counterpart to
+  `dark-ages-inquisitor`'s classic-line hunters), 185 pages
 
 **Classic Dark Ages line** (original, pre-V20, published ~1996-2002):
 - `clanbook-salubri/` — Clanbook: Salubri, 74 pages
@@ -41,17 +45,22 @@ overlapping) teams. Treat material from different lines as separate
 canons that happen to share cosmology, not as strictly compatible facts.
 
 1. **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-   `v20-dark-ages`, `v20-dark-ages-companion`) is a 2011-2015 *20th
-   Anniversary retrospective* line: a consolidated, updated
-   re-presentation of the game aimed at both new and returning players,
-   published as two internally consistent sub-pairs — one for "modern
-   nights" (present day) and one for the Dark Ages period (1242 CE),
-   each roughly 750 years apart in fictional time but written and
+   `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`)
+   is a 2011-2015 *20th Anniversary retrospective* line: a consolidated,
+   updated re-presentation of the game aimed at both new and returning
+   players, published as two internally consistent sub-pairs — one for
+   "modern nights" (present day) and one for the Dark Ages period (1242
+   CE), each roughly 750 years apart in fictional time but written and
    edited as a matched pair. `v20-dark-ages-companion` is not a third,
    independent sub-pair member — it's a direct expansion of
    `v20-dark-ages` specifically (six new domains plus Storyteller
    toolkit), sharing that book's exact setting-date and cosmology
-   rather than adding a new one.
+   rather than adding a new one. `v20-hunters-hunted-ii` sits within the
+   modern-nights sub-pair (it expands directly on `v20-core`'s brief
+   "Witch-Hunters" section) but flips perspective to the mortals hunting
+   Kindred rather than the Kindred themselves — the modern-nights
+   counterpart to the classic-line `dark-ages-inquisitor`, discussed
+   further below.
 2. **The classic Revised Edition line** (`clanbook-brujah-revised`
    through `clanbook-ravnos-revised`, 13 books) is the *original*
    modern-nights clanbook series, published c. 1998-2000, predating V20
@@ -383,6 +392,63 @@ contemporaries understand vampires" should check this book specifically
 — it is the library's only source written from genuine mortal ignorance
 rather than after-the-fact Kindred hindsight.
 
+### The modern view from the other side: The Hunters Hunted II, and a direct link to Dark Ages: Inquisitor
+`v20-hunters-hunted-ii` is this library's second (and only modern-nights)
+book narrated from the hunters' side rather than the Kindred's, and it
+extends the "view from the other side" pattern established by
+`dark-ages-inquisitor` into the present day — its own Chapter One is
+told entirely as an experienced hunter's in-voice monologue to a
+newly-made hunter, deliberately withholding V20 terminology (Clans,
+Sects) the way `dark-ages-inquisitor`'s narrators withhold the word
+"vampire" itself.
+
+More than a thematic echo, the two books share a **specific named
+character across eras**: `dark-ages-inquisitor`'s Prelude introduces
+**Brother Leopold von Murnau**, a 13th-century Dominican inquisitor of
+the House of Murnau, last seen in that book confronting his own
+corrupted cousin with his ultimate fate left open. `v20-hunters-hunted-
+ii`'s central modern hunter organization, the **Society of Leopold**,
+reveres a **"Leopold of Murnau"** as its founding figure — author of
+"The Testament of Leopold," killed by a vampire, and commemorated in a
+named relic made from his bones ("The Keys of Leopold"). Neither book
+states outright that these are the same continuity event narrated
+twice, but the name, order, era, and cause of death all match: read
+together, the two books supply a beginning (a living, struggling
+13th-century inquisitor) and an end/legacy (a martyred founder-saint
+venerated 700+ years later) for the same figure. Treat this as a
+genuine intentional throughline rather than coincidental reuse of a
+name, and prefer citing both books together for any question
+specifically about Leopold.
+
+`v20-hunters-hunted-ii` is also **directly and non-contradictorily
+consistent** with `v20-core`'s own brief "Witch-Hunters" sidebar (Ch.
+Nine): both agree that the Society of Leopold's current Inquisitor
+General is Ingrid Bauer ("the Iron Maiden"), that she succeeded a
+Monsignor Amelio Vittore, and that her regime has reinstated torture
+and opened combat colleges. Unlike the Dark Ages/modern-books
+relationships tracked elsewhere in this file, this is a case of one
+book expanding on another within the *same* sub-pair without
+introducing any divergence — see "Points of agreement" below.
+
+### An open mystery resolved: who's behind the American gang wars?
+`v20-core`'s "Criminals" sidebar (Ch. Nine) mentions mysterious
+informants — who all self-identify as "Caitiff" — feeding intelligence
+to organized crime and inciting gang wars against vampire-controlled
+criminal networks in Detroit, Miami, Los Angeles, and Chicago, and
+states outright that their true identity and motive is "an open
+mystery." `v20-hunters-hunted-ii`'s Chapter Six answers this in full:
+the informants are **Kerberos**, a coterie of five Caitiff vampires
+secretly created and led by a Tzimisce elder, **Nevesa "Zek"
+Zekistraya**, who deliberately botched her own childer's Embraces to
+disguise them (and herself) as ordinary Caitiff, working through
+Detroit cartel boss Santos "Sapa Inca" de Sanza. This is a rarer kind
+of cross-book relationship in this library than the disagreements
+tracked elsewhere — not a contradiction or a different vantage point on
+the same event, but a straightforward answer to a question the earlier
+book poses and deliberately leaves open. If a question concerns that
+specific `v20-core` mystery, treat `v20-hunters-hunted-ii` as the
+definitive follow-up rather than searching for another explanation.
+
 ### The Cainite Heresy: the same name, two different emphases, in two different lines
 dark-ages-inquisitor's central ongoing plot hook — the **Cainite
 Heresy**, a cult that treats Cainites as blessed or angelic beings
@@ -511,6 +577,13 @@ Constantinople as evidence of the diaspora already underway elsewhere.
   described from the inside by every other book in the library, even
   though dark-ages-inquisitor's narrators never have full or reliable
   access to that inside view themselves.
+- **The Society of Leopold's modern leadership is consistent between
+  v20-core and v20-hunters-hunted-ii**: both name Ingrid Bauer ("the
+  Iron Maiden") as the current Inquisitor General following Monsignor
+  Amelio Vittore's incapacitation, and v20-hunters-hunted-ii's fuller
+  treatment (sub-orders, sects, Theurgy) reads as a direct expansion of
+  v20-core's sketch rather than a divergent account — see "The modern
+  view from the other side" above.
 
 ## Points of disagreement or tension
 - **Carthage** (Brujah utopia vs. death-cult vs. neither vs. Ventrue-
@@ -597,7 +670,12 @@ lines together by default.
   Medieval period is the primary interest. Read `v20-dark-ages-companion`
   after `v20-dark-ages`, not before or standalone — it assumes the core
   book's cosmology, Roads, and rules and adds domains/Apocrypha on top
-  rather than re-explaining the setting.
+  rather than re-explaining the setting. Read `v20-hunters-hunted-ii`
+  after `v20-core` specifically — it directly expands `v20-core`'s
+  "Witch-Hunters" sidebar and resolves that book's open "Caitiff
+  informants" mystery, so reading order matters more here than for the
+  other modern-nights books; it's otherwise self-contained and doesn't
+  require the two Lore books first.
 - **New to the classic Revised-line modern-nights clanbooks**: each of
   the 13 (`clanbook-brujah-revised` through `clanbook-ravnos-revised`)
   is fully standalone — there's no dependency chain. If tracing the
@@ -618,9 +696,11 @@ lines together by default.
   V20, read `dark-ages-inquisitor/v20-conversion.md` instead of
   reasoning about compatibility from first principles.
 - **Researching how mortals/hunters perceived Cainites**:
-  `dark-ages-inquisitor` is the only book in the library written from
-  that vantage point — start there rather than trying to extract an
-  outsider's view from the Kindred-narrated books.
+  `dark-ages-inquisitor` and `v20-hunters-hunted-ii` are the two books
+  in the library written from that vantage point — the former for the
+  Dark Ages, the latter for modern nights. Read them together for the
+  Leopold von Murnau throughline (see "The modern view from the other
+  side" above); either stands alone for a single-era question.
 - **Cross-line research** (e.g. "how does the Salubri/Tremere conflict
   differ across every book that covers it?"): read this file's relevant
   synthesis section first, then pull the specific books it names.
@@ -653,8 +733,14 @@ python3 scripts/query_library.py v20-lore-clans/book_chunks.db v20-dark-ages-com
 ```bash
 python3 scripts/query_library.py clanbook-ravnos-revised/book_chunks.db v20-dark-ages-companion/book_chunks.db "jati"
 ```
+```bash
+python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Leopold"
+```
+```bash
+python3 scripts/query_library.py v20-core/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Kerberos"
+```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 21 books in the library,
+grouped results, so use them as written. With 22 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once.)

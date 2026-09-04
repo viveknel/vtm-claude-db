@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 21 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 22 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -10,17 +10,19 @@ Built with Anthropic's [book-indexer skill](https://github.com/anthropics/skills
 (Claude reads each source PDF once, extracts and tags its text, then
 writes a thematic index and a queryable chunk database from it).
 
-## Three things to know before using this library
+## Four things to know before using this library
 
 **1. This library spans three different editions/product lines, not one
 continuity.** See `library_index.md`'s "A note on editions and game
 lines" section for the full explanation, but briefly:
 - **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-  `v20-dark-ages`, `v20-dark-ages-companion`) — the 2011-2015 *20th
-  Anniversary Edition*, a later retrospective/updated presentation of
-  the game. `v20-dark-ages-companion` is a direct expansion of
-  `v20-dark-ages` (six new domains plus Storyteller toolkit), not an
-  independent setting book.
+  `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`) —
+  the 2011-2015 *20th Anniversary Edition*, a later retrospective/updated
+  presentation of the game. `v20-dark-ages-companion` is a direct
+  expansion of `v20-dark-ages` (six new domains plus Storyteller
+  toolkit), not an independent setting book. `v20-hunters-hunted-ii` is
+  the modern-nights mortal-hunters sourcebook — see point 4 below for
+  its direct link to `dark-ages-inquisitor`.
 - **Classic Revised Edition** (the 13 `clanbook-*-revised` books) — the
   *original* modern-nights clanbook line, published c. 1998-2000,
   predating V20 by over a decade. V20's modern-nights material is a
@@ -73,6 +75,26 @@ subsystem (nothing in V20 to check it against), True Faith overlap, and
 Merits & Flaws catalog drift. For any V20-compatibility question, go to
 that file rather than this README's summary.
 
+**4. `v20-hunters-hunted-ii` is this library's other hunters'-side
+book, and it connects back to `dark-ages-inquisitor` and `v20-core` in
+ways worth knowing before treating it as a standalone modern-nights
+sourcebook.** Like `dark-ages-inquisitor`, it's written from the
+mortal-hunter vantage point rather than the Kindred's. Two specific
+connections matter:
+- Its central hunter organization, the Society of Leopold, reveres a
+  founding martyr named "Leopold of Murnau" — almost certainly the same
+  **Leopold von Murnau** who appears as a living, struggling 13th-century
+  inquisitor in `dark-ages-inquisitor` (whose own book leaves his fate
+  open). Treat the two as one figure across eras, not a coincidental
+  name reuse — see `library_index.md`'s "The modern view from the
+  other side" section.
+- Its Chapter Six **resolves an open mystery from `v20-core`**: that
+  book's brief "Criminals" sidebar mentions unidentified Caitiff
+  informants inciting American gang wars against vampire-run crime and
+  calls it "an open mystery." `v20-hunters-hunted-ii` names them (the
+  Kerberos coterie) and tells the full story. If a question concerns
+  that mystery, this book is the answer, not a separate account.
+
 ## What's in here
 
 **V20 line:**
@@ -84,6 +106,7 @@ that file rather than this README's summary.
 | V20 Lore of the Bloodlines | `v20-lore-bloodlines/` | 103 |
 | Vampire: The Dark Ages 20th Anniversary Edition | `v20-dark-ages/` | 489 |
 | V20 Dark Ages Companion (companion to the above — six domains, Storyteller toolkit) | `v20-dark-ages-companion/` | 133 |
+| The Hunters Hunted II (modern-nights mortal hunters — companion in spirit to `dark-ages-inquisitor`) | `v20-hunters-hunted-ii/` | 185 |
 
 **Classic Dark Ages line:**
 
@@ -115,7 +138,7 @@ that file rather than this README's summary.
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 21 books
+│                                agreements, and disagreements across all 22 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -128,6 +151,7 @@ that file rather than this README's summary.
 ├── v20-lore-bloodlines/
 ├── v20-dark-ages/
 ├── v20-dark-ages-companion/
+├── v20-hunters-hunted-ii/
 ├── clanbook-salubri/
 ├── wind-from-the-east/
 ├── dark-ages-inquisitor/
@@ -178,6 +202,9 @@ names if you need exact wording:
 ```bash
 python3 scripts/query_library.py clanbook-salubri/book_chunks.db clanbook-tremere-revised/book_chunks.db "Saulot diablerie"
 ```
+```bash
+python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Leopold"
+```
 
 Full-text search (both scripts) supports phrase queries (`"exact
 phrase"`), boolean operators (`term1 AND term2`, `term1 NOT term2`),
@@ -204,7 +231,7 @@ extra packages to install).
   Saulot's diablerie), `library_index.md` calls this out explicitly
   rather than silently picking one version — see its "Points of
   disagreement or tension" section.
-- See "Three things to know before using this library" above before
+- See "Four things to know before using this library" above before
   treating any claim as consistent across the whole collection.
 
 ## Adding another related book later
