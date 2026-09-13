@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 22 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 25 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -10,20 +10,26 @@ Built with Anthropic's [book-indexer skill](https://github.com/anthropics/skills
 (Claude reads each source PDF once, extracts and tags its text, then
 writes a thematic index and a queryable chunk database from it).
 
-## Four things to know before using this library
+## Five things to know before using this library
 
 **1. This library spans three different editions/product lines, not one
 continuity.** See `library_index.md`'s "A note on editions and game
 lines" section for the full explanation, but briefly:
 - **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-  `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`) —
-  the 2011-2015 *20th Anniversary Edition*, a later retrospective/updated
-  presentation of the game. `v20-dark-ages-companion` is a direct
-  expansion of `v20-dark-ages` (six new domains plus Storyteller
-  toolkit), not an independent setting book. `v20-hunters-hunted-ii` is
-  the modern-nights mortal-hunters sourcebook — see point 4 below for
-  its direct link to `dark-ages-inquisitor`.
-- **Classic Revised Edition** (the 13 `clanbook-*-revised` books) — the
+  `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`,
+  `v20-tome-of-secrets`, `v20-rites-of-the-blood`) —
+  the 2011-2016 *20th Anniversary Edition*, a later retrospective/updated
+  presentation of the game. `v20-dark-ages-companion` and
+  `v20-tome-of-secrets` are both direct expansions of `v20-dark-ages`
+  (domains/Storyteller toolkit for the former, blood-sorcery material
+  and connected serial fiction for the latter), not independent setting
+  books. `v20-hunters-hunted-ii` is the modern-nights mortal-hunters
+  sourcebook — see point 4 below for its direct link to
+  `dark-ages-inquisitor`. `v20-rites-of-the-blood` is a modern-nights
+  blood-magic sourcebook whose own introduction admits it deliberately
+  departs from strict metaplot continuity in places — see point 5 below.
+- **Classic Revised Edition** (the 13 `clanbook-*-revised` books, plus
+  the Discipline-focused `secrets-of-thaumaturgy-revised`) — the
   *original* modern-nights clanbook line, published c. 1998-2000,
   predating V20 by over a decade. V20's modern-nights material is a
   later, edited retelling of much of what these books cover — expect
@@ -95,6 +101,28 @@ connections matter:
   Kerberos coterie) and tells the full story. If a question concerns
   that mystery, this book is the answer, not a separate account.
 
+**5. The three blood-magic books (`secrets-of-thaumaturgy-revised`,
+`v20-tome-of-secrets`, `v20-rites-of-the-blood`) add rich cross-book
+material, but one of them — `v20-rites-of-the-blood` — is an unusually
+explicit case of intentional non-continuity, and needs care before its
+claims are treated as settled.** Its own introduction states it
+deliberately "moves around the metaplot" to explore its themes, citing
+the Tremere antitribu and the True Black Hand's continued existence as
+examples. Concretely: this library's `v20-core` bundle states the
+Telyavic Tremere bloodline's remnants were "reported destroyed by the
+16th century," but `v20-rites-of-the-blood` depicts a hidden Telyavelic
+Tremere lineage surviving into the modern nights within the Sabbat —
+and `v20-core`'s own antitribu material sits ambiguously between the two,
+describing Tremere antitribu who still "out" hidden Telyavic infiltrators
+today. Don't silently resolve this in either direction; present it as an
+open question across the three sources — see `library_index.md`'s "The
+Telyavic/Telyavelic Tremere" section for the full three-way read. The
+same caution applies more mildly to `secrets-of-thaumaturgy-revised`,
+whose every chapter is narrated by a different unreliable in-character
+voice (one later revealed, by its own byline, to be a non-Tremere
+impersonator) — see that book's own README for how to handle quotes
+from it.
+
 ## What's in here
 
 **V20 line:**
@@ -107,6 +135,8 @@ connections matter:
 | Vampire: The Dark Ages 20th Anniversary Edition | `v20-dark-ages/` | 489 |
 | V20 Dark Ages Companion (companion to the above — six domains, Storyteller toolkit) | `v20-dark-ages-companion/` | 133 |
 | The Hunters Hunted II (modern-nights mortal hunters — companion in spirit to `dark-ages-inquisitor`) | `v20-hunters-hunted-ii/` | 185 |
+| Tome of Secrets (companion to `v20-dark-ages` — blood sorcery, feudalism/warfare toolkit, connected serial fiction) | `v20-tome-of-secrets/` | 119 |
+| Rites of the Blood (modern-nights blood magic across every faction; see point 5 above on its intentional metaplot divergence) | `v20-rites-of-the-blood/` | 172 |
 
 **Classic Dark Ages line:**
 
@@ -133,12 +163,13 @@ connections matter:
 | Clanbook: Lasombra | `clanbook-lasombra-revised/` | 106 |
 | Clanbook: Giovanni | `clanbook-giovanni-revised/` | 106 |
 | Clanbook: Ravnos | `clanbook-ravnos-revised/` | 106 |
+| Blood Magic: Secrets of Thaumaturgy | `secrets-of-thaumaturgy-revised/` | 145 |
 
 ```
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 22 books
+│                                agreements, and disagreements across all 25 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -152,6 +183,8 @@ connections matter:
 ├── v20-dark-ages/
 ├── v20-dark-ages-companion/
 ├── v20-hunters-hunted-ii/
+├── v20-tome-of-secrets/
+├── v20-rites-of-the-blood/
 ├── clanbook-salubri/
 ├── wind-from-the-east/
 ├── dark-ages-inquisitor/
@@ -167,7 +200,8 @@ connections matter:
 ├── clanbook-tzimisce-revised/
 ├── clanbook-lasombra-revised/
 ├── clanbook-giovanni-revised/
-└── clanbook-ravnos-revised/
+├── clanbook-ravnos-revised/
+└── secrets-of-thaumaturgy-revised/
     (each of the above folders has the same four items as v20-core/,
     except dark-ages-inquisitor/, which has a fifth: v20-conversion.md —
     see that folder's own README.md)
@@ -205,6 +239,9 @@ python3 scripts/query_library.py clanbook-salubri/book_chunks.db clanbook-tremer
 ```bash
 python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Leopold"
 ```
+```bash
+python3 scripts/query_library.py v20-core/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Telyav"
+```
 
 Full-text search (both scripts) supports phrase queries (`"exact
 phrase"`), boolean operators (`term1 AND term2`, `term1 NOT term2`),
@@ -227,10 +264,11 @@ extra packages to install).
   relevant `book_chunks.db` directly for specific rules text.
 - Where books genuinely disagree with each other (e.g. Carthage's
   portrayal, the Cappadocians'/Salubri's status as active vs. destroyed
-  across timelines, or the Tremere's and Salubri's opposing accounts of
-  Saulot's diablerie), `library_index.md` calls this out explicitly
-  rather than silently picking one version — see its "Points of
-  disagreement or tension" section.
+  across timelines, the Tremere's and Salubri's opposing accounts of
+  Saulot's diablerie, the Telyavic/Telyavelic Tremere's fate, or the
+  Assamite blood curse's status), `library_index.md` calls this out
+  explicitly rather than silently picking one version — see its "Points
+  of disagreement or tension" section.
 - See "Four things to know before using this library" above before
   treating any claim as consistent across the whole collection.
 

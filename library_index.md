@@ -2,7 +2,7 @@
 
 ## Books in this collection
 
-**V20 line** (20th Anniversary Edition, modern retrospective/reboot, published ~2011-2015):
+**V20 line** (20th Anniversary Edition, modern retrospective/reboot, published ~2011-2016):
 - `v20-core/` — Vampire: The Masquerade 20th Anniversary Edition (core rulebook), 528 pages
 - `v20-lore-clans/` — V20 Lore of the Clans, 309 pages
 - `v20-lore-bloodlines/` — V20 Lore of the Bloodlines, 103 pages
@@ -27,9 +27,25 @@
   `clanbook-ventrue-revised/`, `clanbook-assamite-revised/`, `clanbook-followers-of-set-revised/`,
   `clanbook-tzimisce-revised/`, `clanbook-lasombra-revised/`, `clanbook-giovanni-revised/`,
   `clanbook-ravnos-revised/` — 106 pages each
+- `secrets-of-thaumaturgy-revised/` — Blood Magic: Secrets of Thaumaturgy
+  (2000; not a clanbook, but a Discipline-specific sourcebook from the
+  same Revised-era product family — Thaumaturgy history/culture plus
+  Necromancy, Setite Sorcery, Assamite Sorcery, and Koldunic Sorcery),
+  145 pages
+
+**V20 line** (continued): two more V20 books join the six above —
+- `v20-tome-of-secrets/` — Tome of Secrets (2016; a direct Kickstarter-
+  funded companion/expansion of `v20-dark-ages`, in the same relationship
+  to that book as `v20-dark-ages-companion`: new blood-sorcery material,
+  a feudalism/warfare toolkit, and a connected serial-fiction subplot,
+  not an independent setting book), 119 pages
+- `v20-rites-of-the-blood/` — Rites of the Blood (2014; modern-nights,
+  covering blood magic across every faction — Camarilla/Tremere, Sabbat,
+  Anarch, the Independent clans, the Inconnu/Tal'Mahe'Ra, and
+  Infernalism), 172 pages
 
 ## How to use this file
-This file synthesizes themes across all 21 books above. For details on
+This file synthesizes themes across all 25 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
 or use `scripts/query_library.py` to search across several databases at
@@ -45,24 +61,33 @@ overlapping) teams. Treat material from different lines as separate
 canons that happen to share cosmology, not as strictly compatible facts.
 
 1. **V20** (`v20-core`, `v20-lore-clans`, `v20-lore-bloodlines`,
-   `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`)
-   is a 2011-2015 *20th Anniversary retrospective* line: a consolidated,
+   `v20-dark-ages`, `v20-dark-ages-companion`, `v20-hunters-hunted-ii`,
+   `v20-tome-of-secrets`, `v20-rites-of-the-blood`)
+   is a 2011-2016 *20th Anniversary retrospective* line: a consolidated,
    updated re-presentation of the game aimed at both new and returning
    players, published as two internally consistent sub-pairs — one for
    "modern nights" (present day) and one for the Dark Ages period (1242
    CE), each roughly 750 years apart in fictional time but written and
-   edited as a matched pair. `v20-dark-ages-companion` is not a third,
-   independent sub-pair member — it's a direct expansion of
-   `v20-dark-ages` specifically (six new domains plus Storyteller
-   toolkit), sharing that book's exact setting-date and cosmology
-   rather than adding a new one. `v20-hunters-hunted-ii` sits within the
-   modern-nights sub-pair (it expands directly on `v20-core`'s brief
-   "Witch-Hunters" section) but flips perspective to the mortals hunting
-   Kindred rather than the Kindred themselves — the modern-nights
-   counterpart to the classic-line `dark-ages-inquisitor`, discussed
-   further below.
+   edited as a matched pair. `v20-dark-ages-companion` and
+   `v20-tome-of-secrets` are not independent sub-pair members — both are
+   direct expansions of `v20-dark-ages` specifically, sharing that
+   book's exact setting-date and cosmology rather than adding a new one
+   (`v20-tome-of-secrets` additionally carries its own connected serial
+   fiction, "The Bloodless Crusade," not found in the core book).
+   `v20-hunters-hunted-ii` sits within the modern-nights sub-pair (it
+   expands directly on `v20-core`'s brief "Witch-Hunters" section) but
+   flips perspective to the mortals hunting Kindred rather than the
+   Kindred themselves — the modern-nights counterpart to the classic-line
+   `dark-ages-inquisitor`, discussed further below. `v20-rites-of-the-blood`
+   is also a modern-nights sub-pair book, covering blood magic/sorcery
+   across every faction; its own introduction states it deliberately
+   diverges from strict metaplot continuity in places (see "Blood magic
+   and sorcery across the library" below) — treat its more surprising
+   claims as this book's own take rather than assuming automatic
+   consistency with the rest of the V20 line.
 2. **The classic Revised Edition line** (`clanbook-brujah-revised`
-   through `clanbook-ravnos-revised`, 13 books) is the *original*
+   through `clanbook-ravnos-revised`, 13 books, plus the Discipline-
+   focused `secrets-of-thaumaturgy-revised`) is the *original*
    modern-nights clanbook series, published c. 1998-2000, predating V20
    by over a decade. These are the primary-source books V20's modern-
    nights material was later distilled and updated from — expect V20 to
@@ -70,7 +95,13 @@ canons that happen to share cosmology, not as strictly compatible facts.
    but with real differences in specific historical claims, elder
    names, and plot details (V20 openly rewrites, prunes, and sometimes
    contradicts classic-line specifics; it does not claim to be a
-   word-for-word update).
+   word-for-word update). `secrets-of-thaumaturgy-revised` is a special
+   case even within this line: every chapter is narrated by a different
+   unreliable in-character voice, and the book's own byline reveals its
+   first-person "Tremere historian" narrator to be a non-Tremere
+   impersonator — treat its historical claims as even less reliable than
+   the clanbooks' own unreliable narrators, not as a straightforward
+   primary source.
 3. **The classic Dark Ages line** (`clanbook-salubri`,
    `wind-from-the-east`, `dark-ages-inquisitor`) is the *original*,
    pre-V20 Dark Ages product line, also from the late 1990s/early 2000s.
@@ -550,7 +581,166 @@ decline (agreed upon across the V20 line) was locally uneven rather
 than uniform — Mangaluru as a still-thriving stronghold, Bath and
 Constantinople as evidence of the diaspora already underway elsewhere.
 
-## Points of agreement
+### Blood magic and sorcery across the library: one Tremere founding story, many rival traditions
+Adding `secrets-of-thaumaturgy-revised`, `v20-tome-of-secrets`, and
+`v20-rites-of-the-blood` triples the library's blood-magic coverage and
+lets several previously isolated threads connect.
+- **The Tremere founding story holds up across an unreliable retelling.**
+  `clanbook-tremere-revised` gives the institutional account: Tremere and
+  Goratrix engineered vampirism for their mortal wizard-order, drawing on
+  vitae taken from Tzimisce vampires, sparking the long Tremere/Tzimisce
+  war. `secrets-of-thaumaturgy-revised`'s Chapter One retells the same
+  core facts (Goratrix's scavenging, the Tzimisce vitae, the resulting
+  war) — but through a narrator later revealed to be a Brujah/Malkavian
+  antitribu impersonating a Tremere historian, with a second, hostile
+  in-universe "editor" contradicting him in the margins throughout. The
+  underlying facts survive the retelling essentially intact even though
+  the narrator does not — a rare case in this library of an unreliable
+  narrator confirming rather than complicating an existing account.
+- **Setite factions get a sorcery layer.** `v20-lore-clans`' Followers of
+  Set chapter names the Sisterhood of Sekhmet, Cohort of Wepwawet, Cult
+  of Taweret, Cult of Typhon Trismegistus, Serpents of the Light, Daitya,
+  and Tlacique as the Clan's major cults/bloodlines. `v20-rites-of-the-
+  blood`'s Chapter Four names the same factions again and adds what each
+  one actually *practices* (Akhu, Sadhana, Nahuallotl, Wanga) and how
+  they relate to each other — e.g. the Cohort's fundamentalism as the
+  direct cause of the Serpents of the Light's schism, or the Sisterhood's
+  friction with the wider Setite community over honoring Sekhmet ahead
+  of Set. Treat the two books as the same faction roster at two levels
+  of detail, not as competing accounts.
+- **The Pisanob/Harbingers of Skulls war gets a status update.**
+  `v20-lore-clans` mentions in passing that the Pisanob (the Giovanni's
+  Mesoamerican necromancer family) are "currently under attack from the
+  Harbingers of Skulls." `v20-rites-of-the-blood`'s Necromancy section
+  confirms this is an active, ongoing conflict — "a battle across Latin
+  America that has ground to a stalemate" — and adds that the Harbingers'
+  Necromancy makes Giovanni soul-collection operations in Sabbat
+  territory especially dangerous, since word of a Giovanni's activity
+  spreads through the wraith community itself.
+- **Two different Giovanni god-ambitions, not necessarily competing.**
+  `v20-lore-clans` describes Cappadocius's original goal as "Apotheosis"
+  by dissolving the sudario (the Shroud between life and death).
+  `v20-rites-of-the-blood` describes a separate doctrine, "the Endless
+  Night," under which the Clan pursues godhood by collecting "one hundred
+  million souls." Neither book cross-references the other's version;
+  treat them as two different theological threads within Giovanni
+  ambition (a metaphysical method vs. a numerical quota) rather than
+  a contradiction to resolve.
+- **Koldunic Sorcery across three eras.** `v20-tome-of-secrets` (Dark
+  Ages, 1242) shows the Tzimisce Voivode Rustovich trying to reunify the
+  practice against the "Many-Headed Seekers" rival faction, tied to the
+  ongoing Tremere/Tzimisce Gargoyle war. `secrets-of-thaumaturgy-revised`
+  (Revised era, year 2000) shows a further-developed Koldunic Sorcery
+  with named Ways (Wind, Dead Water) reawakening explicitly because of
+  "the destruction of the Tremere antitribu." `v20-rites-of-the-blood`
+  (modern V20) treats Koldunism as "extremely rare in the modern world"
+  and centers it on the elemental entity Kupala. Read together in
+  chronological (in-fiction) order for a rare complete arc of one
+  Discipline's rise, peak, and decline.
+- **Voudoun Necromancy's origin, and its parallel in Setite Wanga.**
+  `secrets-of-thaumaturgy-revised` gives the origin story of Voudoun
+  Necromancy: the Lasombra Gisele Hemmet becomes an unwilling houngan of
+  Baron Samedi, the same loa `v20-lore-bloodlines` identifies as the
+  inspiration (disputed even in-universe) for the Samedi bloodline's
+  name. `v20-rites-of-the-blood` independently describes the *Setite*
+  equivalent tradition, Wanga, as sharing the same religious roots but
+  focusing on different aspects of Voudoun belief than Necromancy does,
+  and mentions a `Papa Zombie` of the Samedi bloodline as a rumored
+  teacher of Wanga to the Serpents of the Light. None of these three
+  books cross-references the others by name, but together they sketch
+  one shared Caribbean occult history from three angles (Lasombra
+  Necromancer, Samedi bloodline, Setite sorcerer) — a similar pattern to
+  this library's existing "Zao-lat and the Wu Zao" cross-line connection.
+- **The Montmartre Pact gets named negotiators.** This library already
+  tracks the 1489 Montmartre Pact (via `v20-lore-clans` and
+  `clanbook-gangrel-revised`) as the treaty ending Tremere Gargoyle
+  creation. `v20-rites-of-the-blood` names the Tremere negotiators —
+  Meerlinda and Calderon — and adds that a small number of ritual
+  exceptions (Soul of the Homunculi, Blood Imp, Rutor's Hand) survived
+  the Pact's ban, plus a refined, fully-infertile successor creation
+  ritual, the Sabbat's Blood Brothers (a joint Tzimisce/Tremere-antitribu
+  project explicitly built to avoid the first Gargoyles' flaws).
+  Separately, `v20-rites-of-the-blood` also names this same Meerlinda as
+  the Tremere elder who, decades later (1764), suggested the name for
+  the Camarilla's anti-infernalist Josian archons — worth noting if a
+  question touches Meerlinda specifically, since the two roles (Gargoyle-
+  ban negotiator, Josian namer) span nearly three centuries of the same
+  named character's involvement in Camarilla-Tremere relations.
+
+### The Telyavic/Telyavelic Tremere: destroyed, outed, or still hiding?
+This library's existing `v20-core` bundle states the Telyavic Tremere
+bloodline — a Lithuanian offshoot worshipped as death-gods, destroyed by
+the Ventrue Jürgen the Sword-Bearer — had its remnant survivors "reported
+destroyed by the 16th century." Three more data points now complicate
+that timeline into a genuinely open question rather than settled history:
+- `v20-core`'s own antitribu vignettes chapter states that modern Tremere
+  antitribu "gleefully sabotage" the mainline Clan, "including outing
+  hidden Telyavic Tremere infiltrators" — implying some still exist to be
+  outed, within living Sabbat memory, long after the "16th century"
+  destruction date.
+- `v20-rites-of-the-blood` goes much further: an entire splinter lineage
+  of "Telyavelic Tremere" faked their deaths centuries ago specifically
+  to escape this fate, and their distinct vitae (native Presence instead
+  of Dominate) lets most of them fake the ordinary antitribu "Betrayer's
+  Sigil" and hide successfully — not just from the mainline Clan, but
+  from other Sabbat members too. The book's own fiction prelude depicts
+  the capture and destruction of one such Telyavelic Tremere by a
+  Tzimisce elder, and its Giovanni-Necromancy chapter separately
+  describes the Clan researching a lost Telyavelic path ("Sielanic
+  Thaumaturgy") believed extinct.
+Read together: `v20-core` alone would suggest occasional infiltrators are
+still being caught in the modern nights (consistent with a slow, ongoing
+mop-up of a 16th-century destruction); `v20-rites-of-the-blood` suggests
+the destruction was never complete and a whole hidden lineage persists.
+Neither book acknowledges the other's framing. Treat this as a genuinely
+unresolved plural-history case in the model of this library's Carthage
+disagreement, not as a puzzle with a correct answer — and note that this
+book's own introduction flags the Tremere antitribu's status as one of
+the deliberate places it "moves around the metaplot."
+
+### The Assamite blood curse: three explanations, two more open questions
+`v20-lore-clans`' antitribu vignettes already establish that Assamite
+antitribu offer "three competing explanations" for how they broke the
+Tremere-imposed blood curse, without settling on one. Two more books add
+further, unreconciled data points rather than resolving the question:
+- `secrets-of-thaumaturgy-revised` (Revised era, year 2000) has its
+  unreliable narrator report that the curse "collapsed overnight, without
+  warning" clan-wide, with Tremere elders unable to restore it — framed
+  as one of several end-times omens alongside the vanishing Sabbat
+  Tremere antitribu (see that book's own index for the "Gehenna omens"
+  thread running through it).
+- `v20-rites-of-the-blood` (modern V20, chronologically later) treats the
+  curse as still fully intact: Assamite Sorcerers pursue an entire
+  metaphysical discipline (Dur-An-Ki, the "Ladder of Heaven") specifically
+  to break it, with centuries of effort and no success yet, and with a
+  Warrior caste growing impatient at the Sorcerers' lack of results.
+Whether the Revised-era "overnight collapse" was permanent, reversed,
+localized, or simply another unreliable narrator's exaggeration is not
+settled by any book in this library — a future session should present
+these as different books' different claims rather than picking one.
+
+### Carthage: a seventh (and eighth) telling
+The Carthage disagreement already tracked in this file — permanently
+unresolved across the V20 and classic-line books — gains further entries:
+- **`v20-rites-of-the-blood`** gives Carthage's destruction a specifically
+  anti-infernal religious motive: the Malkavian seer Tryphosa has visions
+  of Baali corruption spreading through the city and convinces a coterie
+  of Ventrue, Malkavian, and Toreador elders to destroy it on those
+  grounds — the founding act of what becomes, centuries later (1764), the
+  Camarilla's Josian archon order. This account doesn't contradict the
+  other six so much as add a motive (demon-purging) that none of them
+  mention; the same coterie's descendants are stated to still exist,
+  which the book connects to nothing else in this library.
+- **`secrets-of-thaumaturgy-revised`** adds a blood-magic-specific angle:
+  its unreliable narrator claims the Brujah of Carthage didn't practice
+  blood magic themselves but tolerated blood-magician tenants within the
+  city for the steady supply of sacrificial blood their rituals provided
+  — a mercantile rather than moral or political account of why Carthage
+  mattered to blood magicians specifically, distinct from (and not
+  addressing) any of the other accounts' explanations for the city's
+  destruction.
+
+
 - **Core cosmology is stable across all four books**: Caine's curse,
   the Second/Third Generation Antediluvian structure, Gehenna as
   looming and unconfirmed, Golconda as a rumored and possibly
@@ -584,6 +774,20 @@ Constantinople as evidence of the diaspora already underway elsewhere.
   treatment (sub-orders, sects, Theurgy) reads as a direct expansion of
   v20-core's sketch rather than a divergent account — see "The modern
   view from the other side" above.
+- **The Tremere founding story survives an unreliable retelling intact**:
+  clanbook-tremere-revised's institutional account (Tremere and Goratrix,
+  Tzimisce vitae, the resulting war) and secrets-of-thaumaturgy-revised's
+  unreliable-narrator retelling of the same events agree on every
+  material fact, even though the narrator delivering the second account
+  is later revealed to be a non-Tremere impersonator — see "Blood magic
+  and sorcery across the library" above.
+- **v20-lore-clans and v20-rites-of-the-blood independently name the same
+  Setite factions** (Sisterhood of Sekhmet, Cohort of Wepwawet, Cult of
+  Taweret, Cult of Typhon Trismegistus, Serpents of the Light, Daitya,
+  Tlacique) and the same active Pisanob/Harbingers of Skulls conflict,
+  with the later book adding sorcery practices and a status update
+  rather than a divergent version — see "Blood magic and sorcery across
+  the library" above.
 
 ## Points of disagreement or tension
 - **Carthage** (Brujah utopia vs. death-cult vs. neither vs. Ventrue-
@@ -653,6 +857,21 @@ Constantinople as evidence of the diaspora already underway elsewhere.
   rewrite rather than a reprint — see the edition note at the top of
   this file before treating any single specific claim as cross-line
   consensus.
+- **The Telyavic/Telyavelic Tremere's fate** (reported destroyed by the
+  16th century per v20-core vs. a surviving hidden lineage per
+  v20-rites-of-the-blood, with v20-core's own antitribu vignettes sitting
+  ambiguously between the two) — see "The Telyavic/Telyavelic Tremere"
+  above for the full three-way read.
+- **The Assamite blood curse's status** (three competing explanations per
+  v20-lore-clans, a sudden clan-wide collapse per secrets-of-thaumaturgy-
+  revised, and an unbroken curse still being fought via Dur-An-Ki per
+  v20-rites-of-the-blood) — see "The Assamite blood curse" above.
+- **Carthage, again**: now a seven-or-eight-way disagreement spanning
+  every game line in this library, from a purely religious/anti-infernal
+  motive (the Josians' founding, per v20-rites-of-the-blood) to a
+  mercantile blood-magic angle (secrets-of-thaumaturgy-revised) alongside
+  the political and Brujah/Ventrue-identity accounts already tracked —
+  see "Carthage: a seventh (and eighth) telling" above.
 
 ## Chronology / influence
 Reading order for someone new to this whole library: start with
@@ -704,6 +923,16 @@ lines together by default.
 - **Cross-line research** (e.g. "how does the Salubri/Tremere conflict
   differ across every book that covers it?"): read this file's relevant
   synthesis section first, then pull the specific books it names.
+- **New to blood magic/sorcery specifically**: read `v20-tome-of-secrets`
+  first if the focus is Dark Ages-era sorcery (it assumes `v20-dark-ages`'
+  baseline systems), or `v20-rites-of-the-blood` first if the focus is
+  modern-nights sorcery across every faction; `secrets-of-thaumaturgy-
+  revised` is a fully standalone classic-Revised-era treatment and works
+  well read on its own, though its unreliable narration is worth noting
+  going in (see "Blood magic and sorcery across the library" above).
+  Reading all three together, in that chronological (in-fiction) order,
+  gives the fullest picture of how several traditions — Koldunic Sorcery
+  especially — change across the setting's timeline.
 
 ## Cross-book query examples
 ```bash
@@ -739,8 +968,20 @@ python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters
 ```bash
 python3 scripts/query_library.py v20-core/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Kerberos"
 ```
+```bash
+python3 scripts/query_library.py v20-core/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Telyav"
+```
+```bash
+python3 scripts/query_library.py v20-lore-clans/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Pisanob"
+```
+```bash
+python3 scripts/query_library.py secrets-of-thaumaturgy-revised/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Assamite curse"
+```
+```bash
+python3 scripts/query_library.py v20-tome-of-secrets/book_chunks.db secrets-of-thaumaturgy-revised/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Koldunic"
+```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 22 books in the library,
+grouped results, so use them as written. With 25 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once.)
