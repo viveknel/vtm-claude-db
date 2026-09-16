@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 25 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 26 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -29,12 +29,12 @@ lines" section for the full explanation, but briefly:
   blood-magic sourcebook whose own introduction admits it deliberately
   departs from strict metaplot continuity in places — see point 5 below.
 - **Classic Revised Edition** (the 13 `clanbook-*-revised` books, plus
-  the Discipline-focused `secrets-of-thaumaturgy-revised`) — the
-  *original* modern-nights clanbook line, published c. 1998-2000,
-  predating V20 by over a decade. V20's modern-nights material is a
-  later, edited retelling of much of what these books cover — expect
-  broad agreement on core clan identity but real differences in
-  specific historical claims and details.
+  the Discipline-focused `secrets-of-thaumaturgy-revised` and its direct
+  sequel `blood-sacrifice-revised`) — the *original* modern-nights
+  clanbook line, published c. 1998-2002, predating V20 by over a decade.
+  V20's modern-nights material is a later, edited retelling of much of
+  what these books cover — expect broad agreement on core clan identity
+  but real differences in specific historical claims and details.
 - **Classic Dark Ages** (`clanbook-salubri`, `wind-from-the-east`,
   `dark-ages-inquisitor`) — the *original*, pre-V20 Dark Ages product
   line, also from the late 1990s/early 2000s. `v20-dark-ages` is a
@@ -101,27 +101,34 @@ connections matter:
   Kerberos coterie) and tells the full story. If a question concerns
   that mystery, this book is the answer, not a separate account.
 
-**5. The three blood-magic books (`secrets-of-thaumaturgy-revised`,
-`v20-tome-of-secrets`, `v20-rites-of-the-blood`) add rich cross-book
-material, but one of them — `v20-rites-of-the-blood` — is an unusually
-explicit case of intentional non-continuity, and needs care before its
-claims are treated as settled.** Its own introduction states it
-deliberately "moves around the metaplot" to explore its themes, citing
-the Tremere antitribu and the True Black Hand's continued existence as
-examples. Concretely: this library's `v20-core` bundle states the
-Telyavic Tremere bloodline's remnants were "reported destroyed by the
-16th century," but `v20-rites-of-the-blood` depicts a hidden Telyavelic
-Tremere lineage surviving into the modern nights within the Sabbat —
-and `v20-core`'s own antitribu material sits ambiguously between the two,
-describing Tremere antitribu who still "out" hidden Telyavic infiltrators
-today. Don't silently resolve this in either direction; present it as an
-open question across the three sources — see `library_index.md`'s "The
-Telyavic/Telyavelic Tremere" section for the full three-way read. The
-same caution applies more mildly to `secrets-of-thaumaturgy-revised`,
-whose every chapter is narrated by a different unreliable in-character
-voice (one later revealed, by its own byline, to be a non-Tremere
-impersonator) — see that book's own README for how to handle quotes
-from it.
+**5. The four blood-magic books (`secrets-of-thaumaturgy-revised`,
+`blood-sacrifice-revised`, `v20-tome-of-secrets`, `v20-rites-of-the-
+blood`) add rich cross-book material, but two things are worth knowing
+before treating their claims as settled.** First, `v20-rites-of-the-
+blood` is an unusually explicit case of intentional non-continuity. Its
+own introduction states it deliberately "moves around the metaplot" to
+explore its themes, citing the Tremere antitribu and the True Black
+Hand's continued existence as examples. Concretely: this library's
+`v20-core` bundle states the Telyavic Tremere bloodline's remnants were
+"reported destroyed by the 16th century," but `v20-rites-of-the-blood`
+depicts a hidden Telyavelic Tremere lineage surviving into the modern
+nights within the Sabbat — and `v20-core`'s own antitribu material sits
+ambiguously between the two, describing Tremere antitribu who still
+"out" hidden Telyavic infiltrators today. Don't silently resolve this in
+either direction; present it as an open question across the three
+sources — see `library_index.md`'s "The Telyavic/Telyavelic Tremere"
+section for the full three-way read. The same caution applies more
+mildly to `secrets-of-thaumaturgy-revised`, whose every chapter is
+narrated by a different unreliable in-character voice (one later
+revealed, by its own byline, to be a non-Tremere impersonator) — see
+that book's own README for how to handle quotes from it. Second, the
+Assamite blood curse's status is a genuine four-way unresolved question
+across this whole group of books — `secrets-of-thaumaturgy-revised` and
+`blood-sacrifice-revised` (2000 and 2002) both treat it as already
+broken, while `v20-lore-clans` (three competing explanations) and
+`v20-rites-of-the-blood` (still unbroken, actively being fought over)
+give two more, later positions. See `library_index.md`'s "The Assamite
+blood curse" section.
 
 ## What's in here
 
@@ -164,12 +171,13 @@ from it.
 | Clanbook: Giovanni | `clanbook-giovanni-revised/` | 106 |
 | Clanbook: Ravnos | `clanbook-ravnos-revised/` | 106 |
 | Blood Magic: Secrets of Thaumaturgy | `secrets-of-thaumaturgy-revised/` | 145 |
+| Blood Sacrifice: The Thaumaturgy Companion (direct sequel to the above) | `blood-sacrifice-revised/` | 101 |
 
 ```
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 25 books
+│                                agreements, and disagreements across all 26 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -201,7 +209,8 @@ from it.
 ├── clanbook-lasombra-revised/
 ├── clanbook-giovanni-revised/
 ├── clanbook-ravnos-revised/
-└── secrets-of-thaumaturgy-revised/
+├── secrets-of-thaumaturgy-revised/
+└── blood-sacrifice-revised/
     (each of the above folders has the same four items as v20-core/,
     except dark-ages-inquisitor/, which has a fifth: v20-conversion.md —
     see that folder's own README.md)
@@ -242,10 +251,16 @@ python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters
 ```bash
 python3 scripts/query_library.py v20-core/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Telyav"
 ```
+```bash
+python3 scripts/query_library.py blood-sacrifice-revised/book_chunks.db v20-rites-of-the-blood/book_chunks.db "wangateur"
+```
 
 Full-text search (both scripts) supports phrase queries (`"exact
 phrase"`), boolean operators (`term1 AND term2`, `term1 NOT term2`),
-and prefix matching (`term*`).
+and prefix matching (`term*`). Note: FTS5 treats hyphens specially, so
+querying a literal hyphenated term like `Dur-An-Ki` can error out or
+return nothing — search a distinctive un-hyphenated word instead (e.g.
+`ashipu`).
 
 ## Requirements
 
@@ -269,7 +284,7 @@ extra packages to install).
   Assamite blood curse's status), `library_index.md` calls this out
   explicitly rather than silently picking one version — see its "Points
   of disagreement or tension" section.
-- See "Four things to know before using this library" above before
+- See "Five things to know before using this library" above before
   treating any claim as consistent across the whole collection.
 
 ## Adding another related book later
