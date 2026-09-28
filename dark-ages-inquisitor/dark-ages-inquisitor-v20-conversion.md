@@ -9,7 +9,11 @@ fine, and a conversion package to make the book playable at a V20 Dark
 Ages table. Where relevant, this also draws on *The Hunters Hunted II*
 (2013) — V20's own modern-nights mortal-hunter sourcebook, indexed in
 this library as `v20-hunters-hunted-ii` — since it's the closest thing
-V20 has to an official answer for several of the gaps below.
+V20 has to an official answer for several of the gaps below. The Merits
+& Flaws sections below check both the modern-nights *V20* corebook
+(`v20-core`) and *V20 Dark Ages* (`v20-dark-ages`) — the latter has its
+own separate Merits & Flaws catalog, and it's the more directly
+relevant one for an actual Dark Ages chronicle.
 
 ## The good news: the core engine hasn't moved much
 
@@ -142,19 +146,134 @@ having drifted in the intervening (in-fiction) centuries:
 Neither collision breaks anything by itself, but a table running both
 books (or converting one using the other for inspiration) should decide
 explicitly which version — or a merged version — applies, rather than
-defaulting to whichever a player happens to remember. None of this
-breaks Inquisitor's *other* new Merits/Flaws (those remain
-self-contained), but the disallowed list and any cross-references to
-"standard Vampire Merits/Flaws" still need a line-by-line check against
-V20's actual catalog rather than an assumed 1:1 match.
+defaulting to whichever a player happens to remember.
 
-**A second, larger catalog now exists too.** `dark-ages-inquisitor-companion`
-(2004) adds its own substantial Merits & Flaws catalog on top of this
-one (per-category Physical/Mental/Social/Supernatural traits, pp.
-124-127 of that book), none of which has been checked against V20's
-catalog here — this conversion package hasn't audited it, so treat it
-as untested until someone runs the same line-by-line check against it
-that the base book's list already needs.
+**Audited: what actually happens if you enforce the disallowed list in
+modern V20 core.** Checked every entry in Inquisitor's disallowed list
+(p.169) against V20 core's own Merits & Flaws appendix (pp. 487-503)
+directly, rather than assuming a 1:1 match. (This audit used the
+modern-nights *V20* corebook specifically — see "V20 Dark Ages has its
+own, different catalog" below for the same check against *V20 Dark
+Ages*, which is the more directly relevant book for an actual Dark Ages
+chronicle and gives a noticeably different result.)
+- **Still exist under the same name — the disallowed list works as
+  printed:** Eat Food, Blush of Health, Child, Efficient Digestion,
+  Smell of the Grave, Permanent Wound, Flesh of the Corpse (Physical);
+  Prey Exclusion, Territorial (Mental); Hunted (Social); Inoffensive to
+  Animals, Medium, Oracular Ability, Repulsed by Garlic, Touch of
+  Frost, Cast No Reflection, Can't Cross Running Water, Repelled by
+  Crosses, Grip of the Damned, Light-Sensitive (Supernatural).
+- **Renamed — the printed disallowed list won't catch these unless a
+  Storyteller knows to look for the new name:** *13th Generation* →
+  split into **Fourteenth Generation** (2-pt Flaw) and **Fifteenth
+  Generation** (4-pt Flaw), since V20 pushed the thin-blood generation
+  floor up by one; *Arcane Resistance* → **Magic Resistance** (2-pt
+  Merit), same function (resistance to Thaumaturgy and other Clans'
+  magic), new name.
+- **No V20 equivalent at all** (verified by exact-phrase search against
+  the full appendix, not just a fuzzy match) — these are simply gone,
+  so the disallowed list has nothing left to ban here: Religious
+  Prohibition, Flesh Eater, Apostate, Outspoken Pagan/Heretic, Initiate
+  to the Road, Repulsive to Animals, Cannot Embrace, Blood Madness,
+  Weak Blood.
+
+Practical upshot: running the disallowed list as printed in V20 mostly
+just works. The one actual fix needed is to also ban **Fourteenth
+Generation**, **Fifteenth Generation**, and **Magic Resistance** by
+name (the renamed survivors) — everything else on the list either still
+works unchanged or has nothing left in V20 to disallow.
+
+**Also audited: Inquisitor's own new Merits/Flaws against modern V20
+core itself, not just *Hunters Hunted II*.** None of Inquisitor's other
+~17 new traits (Hale, Pain Resistant, Weak Lungs, Elderly, Uncanny
+Logic, Worship Obsession, Sickened by the Flesh, Religious Heritage,
+Evangelist, Initiate, Blasphemous Tongue, Reformed Heretic, Holy Art
+Natural, Pure, Gods' Judgment) share a name with anything in V20 core's
+catalog. Holy Aura and Ecstatic (above) remain the only two confirmed
+collisions, and both are against *Hunters Hunted II* specifically — V20
+core itself is clean.
+
+**Also audited: the Companion's second catalog is clean against modern
+V20 core.** `dark-ages-inquisitor-companion` (2004) adds its own 21-trait
+Merits & Flaws catalog (pp. 124-127 of that book: Tough as Nails, Low
+Pain Threshold, Talented Liar, David's Aim, Gullible, Insomniac,
+Supernaturally Ignorant, Orthodox, Arrogant, Criminal Past, Malicious
+Zealot, Convert, Bitter Blood, Callous-Sensitive, Grace, Order Prodigy,
+Saint's Conscience, Vampiric Recognition, Divinely Favored, Inviolate,
+Gifted Exorcist, Halo, Devil's Puppet, Curse Prone, Unlucky, Spiritual
+Cripple). Checked all of them against V20 core's catalog: zero name
+collisions. One near-miss worth a one-line table note rather than a
+fix: the Companion's **Halo** Merit and V20 core's **Sanctity** Merit
+(p.496 — the text itself calls it "the halo effect") both cover a
+saintly reputation that softens how others treat you, under different
+actual names, so they won't collide mechanically but could trip up a
+player reaching for the wrong one. This catalog hasn't been checked
+against *Hunters Hunted II* the way the base book's was — that's the
+one remaining gap.
+
+**V20 Dark Ages has its own, different Merits & Flaws catalog — and
+it's the more relevant one to check.** Everything above was checked
+against the modern-nights *V20* corebook's appendix. But this whole
+document is about running a **V20 Dark Ages** chronicle, and *V20 Dark
+Ages* (2015) has its own separate Merits & Flaws appendix (pp. 419-430)
+that doesn't just mirror modern V20 core — it independently restores
+several classic-line names modern V20 core dropped, drops a couple
+modern V20 core kept, and renames a few differently. Checked the same
+three things against it directly:
+
+- **Disallowed-list items that survive under the same name (mostly a
+  superset of what modern core keeps):** Inoffensive to Animals (1-pt),
+  Medium (2-pt), Oracular Ability (3-pt), Repulsed by Garlic (1-pt),
+  Touch of Frost (1-pt), Cast No Reflection (1-pt), Grip of the Damned
+  (4-pt), Light-Sensitive (5-pt), Apostate (2-pt), Hunted (4-pt), Prey
+  Exclusion (1-pt), Permanent Wound (3-pt), Flesh of the Corpse (5-pt),
+  Blush of Health (2-pt), Efficient Digestion (3-pt), Territorial
+  (2-pt), Smell of the Grave (1-pt) — plus four names modern V20 core
+  had actually dropped that V20 Dark Ages restores intact: **Cannot
+  Embrace** (2-pt), **Repulsive to Animals** (2-pt), **Flesh Eater**
+  (2-pt), **Ragged Bite** (2-pt), and, notably, **13th Generation**
+  itself (2-pt, not renamed the way modern core renames it) and **Weak
+  Blood** (5-pt, also absent from modern core under this name). Child
+  is present too, but recosted to 4-pt here versus modern core's 3-pt.
+- **Renamed, but differently than modern core renames them:** *Eat
+  Food* → **Deceptive Eating** (1-pt) — a different replacement name
+  than modern core, which keeps "Eat Food" outright; *Outspoken
+  Pagan/Heretic* → **Outspoken Heretic** (4-pt, drops "Pagan" from the
+  name); *Initiate to the Road* → **Initiate of the Road** (1-pt, "of"
+  not "to"). *Arcane Resistance* has no equivalent here at all — V20
+  Dark Ages uses neither the classic name nor modern core's "Magic
+  Resistance" rename, so this one is a genuine gap unique to this book.
+- **No equivalent, same as modern core:** Religious Prohibition (though
+  V20 Dark Ages's new **Ethical Prohibition**, 2- or 4-pt, covers
+  related ground — refusing to feed on humans out of conscience — it's
+  a plausible spiritual cousin, not a confirmed same trait), Blood
+  Madness, Repelled by Crosses.
+
+Practical upshot for an actual V20 Dark Ages table: the disallowed list
+works *even better* here than against modern core — most of the "gone"
+entries from the modern-core audit above are back. The only things to
+add to the ban list are **Deceptive Eating** (Eat Food's Dark Ages
+replacement) and **Outspoken Heretic**/**Initiate of the Road** if you
+want the near-renames caught too; **Arcane Resistance** simply has
+nothing to ban, in either V20 book.
+
+- **New traits, checked the same way:** none of Inquisitor's own ~17
+  new traits collide by name with V20 Dark Ages's catalog either (one
+  naming near-miss, not a real collision: Inquisitor's **Initiate**,
+  about mentoring a student, versus V20 Dark Ages's unrelated
+  **Initiate of the Road**, about being new to a Road).
+- **The Companion's catalog has one real, confirmed collision here** —
+  the first one found against either V20 book. Both the Companion
+  (p.127) and V20 Dark Ages (p.428) have a Flaw named **Unlucky**, but
+  they're built differently: the Companion's is a flat 4-pt Flaw
+  (once per session, a critical roll's difficulty rises by 2, and a
+  failure is played as sheer bad luck), while V20 Dark Ages's is a
+  scaling 1-to-5-pt Flaw (a number of times per day equal to points
+  invested, the Storyteller forces a successful roll to be rerolled and
+  the worse result kept). Same name, same "you're just unlucky" concept,
+  incompatible point costs and mechanics — resolve this one explicitly,
+  the same way Holy Aura and Ecstatic get resolved against *Hunters
+  Hunted II*.
 
 ### 4. Terminology and cross-references
 
@@ -229,19 +348,23 @@ Whichever you choose, avoid letting two of the three systems apply to
 the same character at once — that's the actual risk, not any one system
 in isolation.
 
-**Merits & Flaws — verify, don't assume; start from two confirmed collisions.**
-Before a session zero, walk Inquisitor's disallowed list and its new
-Merits/Flaws chapter against V20's actual Merits & Flaws appendix
-together with your group, and flag anything renamed, removed, or
-recosted. Two known collisions to resolve explicitly rather than
-discover mid-session: **Holy Aura** (2-pt Merit in both books, different
-effects — pick one or merge them) and **Ecstatic** (same phenomenon, a
-2-pt Flaw in Inquisitor and a 2-pt Merit in *Hunters Hunted II* — decide
-whether your table treats ecstatic fits as a liability, an asset, or
-lets the player choose which framing fits their character). Beyond
-those two, this is still a five-minute table exercise, not a rewrite —
-most of the classic entries either survived into V20 intact or have an
-obvious V20 equivalent.
+**Merits & Flaws — the audit above tells you exactly what to fix, and
+it depends on which V20 book your table actually uses.** If you're
+running a genuine **V20 Dark Ages** chronicle (the more likely case for
+these books), use that audit: the disallowed list mostly just works,
+with **Deceptive Eating** standing in for Eat Food and nothing at all
+available to ban in place of Arcane Resistance; resolve the confirmed
+**Unlucky** collision between the Companion and V20 Dark Ages itself
+(flat 4-pt vs. scaling 1-to-5-pt, different mechanics); and resolve
+**Holy Aura**/**Ecstatic** against *Hunters Hunted II* if that book is
+also in play. If your table is instead using the **modern-nights V20**
+corebook for some reason, ban **Fourteenth Generation**, **Fifteenth
+Generation**, and **Magic Resistance** by name instead (the renamed
+survivors there), since 13th Generation and Arcane Resistance won't
+catch them. Either way, optionally flag the Companion's **Halo** Merit
+as flavor-adjacent to modern V20 core's **Sanctity** Merit so nobody
+reaches for the wrong one. Nothing else in either Inquisitor book's new
+Merits/Flaws catalog needs a table ruling.
 
 **Backgrounds and new Skills — no changes needed, with two edition-spanning
 echoes worth knowing.**
