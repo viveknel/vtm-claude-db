@@ -20,6 +20,7 @@
 - `clanbook-salubri/` — Clanbook: Salubri, 74 pages
 - `wind-from-the-east/` — Wind from the East (Dark Ages/Mongol-era supplement, also relevant to Kindred of the East — see its own README), 98 pages
 - `dark-ages-inquisitor/` — Dark Ages: Inquisitor (a *hunters'*-side sourcebook — the shadow Inquisition that fights Cainites — for the original, pre-V20 *Dark Ages: Vampire*, which it explicitly requires to play), 245 pages. Bundle also includes `dark-ages-inquisitor-v20-conversion.md`, a fan analysis/house-rule package for running this book at a V20 table — see "A note on editions and game lines" below and that bundle's own README.
+- `dark-ages-inquisitor-companion/` — Dark Ages: Inquisitor Companion (2004; a direct companion to the above, same classic-line rules and setting — order-by-order recruitment/politics/chapter-houses, the Marzonian Rule governing mixed cells, a large new Blessings/Curses/Merits & Flaws catalog, rules for non-order inquisitor characters, and six new antagonists, two of which tie directly into the base book's own open plot threads), 143 pages.
 
 **Classic Revised Edition line** (original, pre-V20, modern nights, published ~1998-2000):
 - `clanbook-brujah-revised/`, `clanbook-gangrel-revised/`, `clanbook-malkavian-revised/`,
@@ -51,7 +52,7 @@
   Infernalism), 172 pages
 
 ## How to use this file
-This file synthesizes themes across all 26 books above. For details on
+This file synthesizes themes across all 27 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
 or use `scripts/query_library.py` to search across several databases at
@@ -145,6 +146,15 @@ canons that happen to share cosmology, not as strictly compatible facts.
    catalog drift. For any question specifically about running this book
    under V20 rules, prefer `v20-conversion.md` over inferring an answer
    from the edition-dependency framing here.
+
+   `dark-ages-inquisitor-companion` (2004) extends this same book — not
+   a new edition, no separate dependency note needed — with order-level
+   detail, a large new Blessings/Curses/Merits & Flaws catalog, and new
+   antagonists. It doesn't have its own `v20-conversion.md`; for a
+   V20-compatibility question touching material this Companion adds
+   (e.g. a new Blessing or Curse), extend `dark-ages-inquisitor`'s
+   `v20-conversion.md` reasoning by analogy rather than assuming an
+   answer exists elsewhere.
 
 **Practical implication:** if a question is about "the Salubri," "the
 Tremere," or any other topic covered by both a classic-line book and a
@@ -433,6 +443,21 @@ headline distinction. Anyone answering a question like "how did
 contemporaries understand vampires" should check this book specifically
 — it is the library's only source written from genuine mortal ignorance
 rather than after-the-fact Kindred hindsight.
+
+`dark-ages-inquisitor-companion` deepens this same vantage point rather
+than adding a new one — its Chapter One order write-ups each include
+that order's own working taxonomy for "the Enemy" (e.g. the Knights of
+Acre's purely combat-behavior classification versus the Red Order's
+theological Hierarchy of Demons, which explicitly slots vampires in by
+three weaknesses — sunlight, faith, fire — while denying they have a
+soul left to redeem), and its Chapter Four antagonist entry for **the
+Pale Brother** is the same named vampire and black monastery as
+`dark-ages-inquisitor`'s own Chapter One frame narrative (Osoro of
+Madrid's captivity) — this Companion adds that the Oculi Dei received a
+smuggled written testimony from inside that monastery as a taunting
+invitation, which the order chose to suppress rather than act on. Treat
+the two books' Pale Brother material as one continuous thread, not
+independent creations, when answering a question about him.
 
 ### The modern view from the other side: The Hunters Hunted II, and a direct link to Dark Ages: Inquisitor
 `v20-hunters-hunted-ii` is this library's second (and only modern-nights)
@@ -974,7 +999,11 @@ lines together by default.
   than setting lore, don't mix its answers with `v20-dark-ages`. If the
   question is specifically about running this book's mechanics *under*
   V20, read `dark-ages-inquisitor/v20-conversion.md` instead of
-  reasoning about compatibility from first principles.
+  reasoning about compatibility from first principles. Read
+  `dark-ages-inquisitor-companion` after `dark-ages-inquisitor`, not
+  standalone — it assumes the base book's premise and named leadership
+  rather than reintroducing them, and its own `book_index.md` says so up
+  front.
 - **Researching how mortals/hunters perceived Cainites**:
   `dark-ages-inquisitor` and `v20-hunters-hunted-ii` are the two books
   in the library written from that vantage point — the former for the
@@ -1023,6 +1052,9 @@ python3 scripts/query_library.py v20-dark-ages/book_chunks.db wind-from-the-east
 python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-dark-ages/book_chunks.db "Cainite Heresy"
 ```
 ```bash
+python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db dark-ages-inquisitor-companion/book_chunks.db "Pale Brother"
+```
+```bash
 python3 scripts/query_library.py v20-dark-ages/book_chunks.db v20-dark-ages-companion/book_chunks.db "Dracon"
 ```
 ```bash
@@ -1054,7 +1086,7 @@ python3 scripts/query_library.py blood-sacrifice-revised/book_chunks.db v20-rite
 ```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 26 books in the library,
+grouped results, so use them as written. With 27 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once. Note: FTS5 treats hyphens specially,
 so querying a literal hyphenated term like "Dur-An-Ki" can error out or

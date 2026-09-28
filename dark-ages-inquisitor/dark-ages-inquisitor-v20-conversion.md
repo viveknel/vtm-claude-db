@@ -148,6 +148,14 @@ self-contained), but the disallowed list and any cross-references to
 "standard Vampire Merits/Flaws" still need a line-by-line check against
 V20's actual catalog rather than an assumed 1:1 match.
 
+**A second, larger catalog now exists too.** `dark-ages-inquisitor-companion`
+(2004) adds its own substantial Merits & Flaws catalog on top of this
+one (per-category Physical/Mental/Social/Supernatural traits, pp.
+124-127 of that book), none of which has been checked against V20's
+catalog here — this conversion package hasn't audited it, so treat it
+as untested until someone runs the same line-by-line check against it
+that the base book's list already needs.
+
 ### 4. Terminology and cross-references
 
 Smaller frictions worth flagging for a table: Inquisitor calls its extra
@@ -280,3 +288,10 @@ wrong "Rank."
   as the same phenomenon seen from two angles, which gives your V20
   conversion a built-in, edition-spanning central mystery for the
   inquisitors to chase.
+- *The Pale Brother, continued:* if your chronicle uses the Pale
+  Brother's monastery from this book's Chapter One frame narrative,
+  `dark-ages-inquisitor-companion`'s Chapter Four antagonist write-up
+  (pp.139-140) picks the thread back up with a smuggled Oculi Dei
+  testimony from inside it — a ready-made escalation hook with no
+  conversion work needed, since it's written for the same classic
+  ruleset this book uses.

@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 26 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 27 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -58,15 +58,16 @@ look elsewhere for its Kindred of the East content.
 
 **3. `dark-ages-inquisitor` is a rules-dependent hunters'-side book, not
 a Kindred sourcebook — but its bundle also includes a V20 conversion
-guide.** Every other book in this library describes the setting from a
-vampire's-eye view. `dark-ages-inquisitor` is the shadow Inquisition's
-own sourcebook — the mortal hunters who fight Cainites — and it
-explicitly requires the *original* *Dark Ages: Vampire* core rulebook to
-play (classic Storyteller System, not V20's revised traits). Don't
-assume its game mechanics are compatible with `v20-dark-ages` without
-checking; and expect its narrators to often describe vampires without
-fully recognizing them as such — that's a deliberate feature of the book,
-not a gap in this bundle's indexing.
+guide, and it has its own direct companion volume.** Every other book in
+this library describes the setting from a vampire's-eye view.
+`dark-ages-inquisitor` is the shadow Inquisition's own sourcebook — the
+mortal hunters who fight Cainites — and it explicitly requires the
+*original* *Dark Ages: Vampire* core rulebook to play (classic
+Storyteller System, not V20's revised traits). Don't assume its game
+mechanics are compatible with `v20-dark-ages` without checking; and
+expect its narrators to often describe vampires without fully
+recognizing them as such — that's a deliberate feature of the book, not
+a gap in this bundle's indexing.
 
 That "don't assume compatible" caution is about the source PDF as
 written, not the last word on the subject: the `dark-ages-inquisitor`
@@ -80,6 +81,18 @@ real gaps are the book's own Superior Virtues/Conviction/Piety/Curses
 subsystem (nothing in V20 to check it against), True Faith overlap, and
 Merits & Flaws catalog drift. For any V20-compatibility question, go to
 that file rather than this README's summary.
+
+`dark-ages-inquisitor-companion/` (2004) is a separate bundle that
+expands directly on `dark-ages-inquisitor` — same classic-line rules and
+setting, no new edition dependency — covering the five orders' internal
+politics/recruitment/chapter-houses in depth, the Marzonian Rule
+governing mixed cells, a large new catalog of Blessings/Curses/Merits &
+Flaws, rules for non-order "outside the orders" inquisitor characters,
+and six new antagonists, two of which (the Pale Brother; the Sicae Dei's
+founding) tie directly into plot threads the base book leaves open. Read
+it after `dark-ages-inquisitor`, not standalone — its own README and
+`book_index.md` assume the base book's premise and named leadership
+rather than re-explaining them.
 
 **4. `v20-hunters-hunted-ii` is this library's other hunters'-side
 book, and it connects back to `dark-ages-inquisitor` and `v20-core` in
@@ -152,6 +165,7 @@ blood curse" section.
 | Clanbook: Salubri | `clanbook-salubri/` | 74 |
 | Wind from the East (Dark Ages / Kindred of the East crossover) | `wind-from-the-east/` | 98 |
 | Dark Ages: Inquisitor (hunters'-side sourcebook, classic-line rules; bundle also includes a V20 conversion guide) | `dark-ages-inquisitor/` | 245 |
+| Dark Ages: Inquisitor Companion (direct companion to the above — order-by-order detail, new Blessings/Curses/Merits & Flaws, new antagonists) | `dark-ages-inquisitor-companion/` | 143 |
 
 **Classic Revised Edition line:**
 
@@ -177,7 +191,7 @@ blood curse" section.
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 26 books
+│                                agreements, and disagreements across all 27 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -196,6 +210,7 @@ blood curse" section.
 ├── clanbook-salubri/
 ├── wind-from-the-east/
 ├── dark-ages-inquisitor/
+├── dark-ages-inquisitor-companion/
 ├── clanbook-brujah-revised/
 ├── clanbook-gangrel-revised/
 ├── clanbook-malkavian-revised/
@@ -247,6 +262,9 @@ python3 scripts/query_library.py clanbook-salubri/book_chunks.db clanbook-tremer
 ```
 ```bash
 python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db v20-hunters-hunted-ii/book_chunks.db "Leopold"
+```
+```bash
+python3 scripts/query_library.py dark-ages-inquisitor/book_chunks.db dark-ages-inquisitor-companion/book_chunks.db "Pale Brother"
 ```
 ```bash
 python3 scripts/query_library.py v20-core/book_chunks.db v20-rites-of-the-blood/book_chunks.db "Telyav"

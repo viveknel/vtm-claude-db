@@ -17,6 +17,15 @@ an initial pass that mistakenly flagged this book's chargen point
 budget as V20-incompatible (checked against V20's own mortal/ghoul
 chargen rules, the numbers already match).
 
+**For order-by-order detail, the Marzonian Rule, a large second catalog
+of Blessings/Curses/Merits & Flaws, or six new antagonists, see
+`../dark-ages-inquisitor-companion/book_index.md` instead.** That book
+is this one's direct 2004 companion — it assumes this book's premise
+and named leadership rather than reintroducing them, and its own Pale
+Brother antagonist entry and Sicae Dei write-up connect directly back
+to material in this book's Chapter One and Chapter Two (see "The
+Crimson Curia and the Cainite Heresy" below).
+
 ## Overview
 *Dark Ages: Inquisitor* (White Wolf, 2002) is a sourcebook for the
 **original, pre-V20** *Vampire: The Dark Ages* line — the book states
@@ -370,6 +379,13 @@ Prelude, Chapter One, and Chapter Two.
   specifically to Lasombra clergy — see that library's
   `library_index.md` for the comparison; this book never identifies the
   Lasombra as the Heresy's source itself.
+- **The Pale Brother thread continues in `dark-ages-inquisitor-companion`.**
+  That book's Chapter Four antagonist entry (pp.139-140) revisits this
+  same vampire and "black monastery" directly, adding that the Oculi Dei
+  received a smuggled written testimony from inside it as a taunting
+  invitation the order chose to suppress rather than act on. Treat the
+  two books' Pale Brother material as one continuous thread, not
+  independent creations, when answering a question about him.
 
 ### Vampires described without being named — a book-long narrative device
 Consistent with the "unreliable, plural history" pattern already
@@ -458,6 +474,7 @@ revised its own list after this book was written).
 - **Oculi Dei ("Eyes of God")** — lay intelligence order, motto *Credite Nemini* (p.74, 89-94, 140-141)
 - **Orisons** — minor Blessings tied to the basic Virtues, available even to lay mortals (p.176-178)
 - **Piety** — a Road-like devotion score; Callousness triggers when Conviction exceeds it (p.158-159)
+- **Sicae Dei ("Daggers of God")** — the Inquisition's secret internal-affairs order responding to the Father Andrea Pitti/Messianic Voices infiltration scare mentioned in this book (established here only by implication; fully detailed in `dark-ages-inquisitor-companion/book_index.md`, pp.82-83)
 - **Poor Knights of the Passion of the Cross of Acre** — the military order, Grand Master Gauthier de Dampiere (p.75-79, 130-131)
 - **Procurator Fiscalis** — prosecutor/archivist role attached to each Council of Faith (p.123, 131)
 - **Psalms** — Sisters of St. John's Endowment category (p.186-191)
