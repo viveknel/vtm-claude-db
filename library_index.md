@@ -39,6 +39,11 @@
   non-Tremere blood-sorcery traditions in depth: Akhu/Egyptian,
   Dur-An-Ki/Middle Eastern, Sadhana/Indian, and Wanga/Afro-Caribbean,
   plus an appendix on Nahuallotl/the Tlacique bloodline), 101 pages
+- `guide-to-the-sabbat-revised/` — Guide to the Sabbat (WW2303, 1999/2000;
+  not a clanbook, but a sect-focused sourcebook from the same Revised-era
+  product family — sect history/organization, the Sabbat's exclusive
+  antitribu clans and bloodlines, seven Paths of Enlightenment, the
+  sect's ritae, and Storyteller/city-building material), 226 pages
 
 **V20 line** (continued): two more V20 books join the six above —
 - `v20-tome-of-secrets/` — Tome of Secrets (2016; a direct Kickstarter-
@@ -52,7 +57,7 @@
   Infernalism), 172 pages
 
 ## How to use this file
-This file synthesizes themes across all 27 books above. For details on
+This file synthesizes themes across all 28 books above. For details on
 any single book, read that book's own `book_index.md` in its
 subdirectory. For exact quotes/facts, query that book's `book_chunks.db`,
 or use `scripts/query_library.py` to search across several databases at
@@ -95,25 +100,41 @@ canons that happen to share cosmology, not as strictly compatible facts.
 2. **The classic Revised Edition line** (`clanbook-brujah-revised`
    through `clanbook-ravnos-revised`, 13 books, plus the Discipline-
    focused `secrets-of-thaumaturgy-revised` and its direct sequel
-   `blood-sacrifice-revised`) is the *original* modern-nights clanbook
-   series, published c. 1998-2002, predating V20 by over a decade.
-   These are the primary-source books V20's modern-nights material was
-   later distilled and updated from — expect V20 to be broadly
-   consistent with them at the level of core clan identity, but with
-   real differences in specific historical claims, elder names, and
-   plot details (V20 openly rewrites, prunes, and sometimes contradicts
-   classic-line specifics; it does not claim to be a word-for-word
-   update). `secrets-of-thaumaturgy-revised` is a special case even
-   within this line: every chapter is narrated by a different unreliable
-   in-character voice, and the book's own byline reveals its
-   first-person "Tremere historian" narrator to be a non-Tremere
-   impersonator — treat its historical claims as even less reliable than
-   the clanbooks' own unreliable narrators, not as a straightforward
-   primary source. `blood-sacrifice-revised` is narrated in a more
-   conventional developer voice and does not carry the same unreliable-
-   narrator caveat, though see "Blood magic and sorcery across the
-   library" below for a genuine, unresolved factual tension it creates
-   with `v20-rites-of-the-blood` over the Assamite blood curse.
+   `blood-sacrifice-revised`, and the sect-focused `guide-to-the-sabbat-
+   revised`) is the *original* modern-nights clanbook series, published
+   c. 1998-2002, predating V20 by over a decade. These are the
+   primary-source books V20's modern-nights material was later distilled
+   and updated from — expect V20 to be broadly consistent with them at
+   the level of core clan identity, but with real differences in
+   specific historical claims, elder names, and plot details (V20 openly
+   rewrites, prunes, and sometimes contradicts classic-line specifics;
+   it does not claim to be a word-for-word update). `secrets-of-
+   thaumaturgy-revised` is a special case even within this line: every
+   chapter is narrated by a different unreliable in-character voice, and
+   the book's own byline reveals its first-person "Tremere historian"
+   narrator to be a non-Tremere impersonator — treat its historical
+   claims as even less reliable than the clanbooks' own unreliable
+   narrators, not as a straightforward primary source. `blood-sacrifice-
+   revised` is narrated in a more conventional developer voice and does
+   not carry the same unreliable-narrator caveat, though see "Blood
+   magic and sorcery across the library" below for a genuine, unresolved
+   factual tension it creates with `v20-rites-of-the-blood` over the
+   Assamite blood curse. `guide-to-the-sabbat-revised` is also narrated
+   in conventional developer voice (aside from in-character sidebar
+   quotes), and — unlike the single-clan clanbooks — treats an entire
+   sect: it's this line's primary source for the Sabbat's antitribu
+   clans/bloodlines, seven of V20's eleven Paths of Enlightenment (see
+   "Morality systems" below), and the sect's ritae, and predates any
+   V20 Sabbat-focused material in this library. Checked directly against
+   `v20-core` (not just assumed): sect titles/hierarchy, the Black Hand,
+   the Code of Milan (near-verbatim match), six of the 13 auctoritas
+   ritae, and the Salubri antitribu leader Adonai all correspond
+   directly, with no outright contradiction found — so treat this book
+   as generally agreeing with V20's Sabbat material by default, as with
+   the rest of this line, with V20 taking priority only where a V20 book
+   explicitly contradicts something here (V20 simply not mentioning a
+   detail, e.g. the current regent's identity, is a gap, not a
+   contradiction).
 3. **The classic Dark Ages line** (`clanbook-salubri`,
    `wind-from-the-east`, `dark-ages-inquisitor`) is the *original*,
    pre-V20 Dark Ages product line, also from the late 1990s/early 2000s.
@@ -305,6 +326,21 @@ different terminology and different specific codes.
   v20-lore-clans' Ravnos chapter) are likewise the same Ravnos philosophy
   across both eras, with consistent core tenets (svadharma, maya,
   samsara) despite the different names for adherents.
+- **`guide-to-the-sabbat-revised` is this library's classic-line primary
+  source for seven of v20-core's eleven Paths of Enlightenment.** Of the
+  eleven Paths v20-core lists (Blood, Bones, Caine, Cathari, Feral Heart,
+  Honorable Accord, Lilith, Metamorphosis, Night, Paradox, Power and the
+  Inner Voice), guide-to-the-sabbat-revised (1999/2000) gives full
+  Revised-era write-ups — Basic Beliefs, Ethics, History, a Hierarchy of
+  Sins table — for seven: Caine, Cathari, Death and the Soul (v20-core
+  doesn't carry this one forward as a separately named Path), Feral
+  Heart, Honorable Accord, Lilith, and Power and the Inner Voice. It also
+  names an eighth, heretical path outside sect sanction — the Path of
+  Evil Revelations, hunted by the Sabbat's own Inquisition — which
+  doesn't appear in v20-core's list at all. For the deep history, sect
+  demographics, or Hierarchy of Sins of any of these seven Paths, prefer
+  this book's fuller treatment over v20-core's much shorter modern-nights
+  entries.
 
 ### Regional/cultural specificity over generic "medieval Europe" or "the West"
 All four V20 books push back against a monolithic default setting, but this
@@ -684,17 +720,34 @@ threads connect.
   treat them as two different theological threads within Giovanni
   ambition (a metaphysical method vs. a numerical quota) rather than
   a contradiction to resolve.
-- **Koldunic Sorcery across three eras.** `v20-tome-of-secrets` (Dark
-  Ages, 1242) shows the Tzimisce Voivode Rustovich trying to reunify the
-  practice against the "Many-Headed Seekers" rival faction, tied to the
-  ongoing Tremere/Tzimisce Gargoyle war. `secrets-of-thaumaturgy-revised`
-  (Revised era, year 2000) shows a further-developed Koldunic Sorcery
-  with named Ways (Wind, Dead Water) reawakening explicitly because of
-  "the destruction of the Tremere antitribu." `v20-rites-of-the-blood`
-  (modern V20) treats Koldunism as "extremely rare in the modern world"
-  and centers it on the elemental entity Kupala. Read together in
-  chronological (in-fiction) order for a rare complete arc of one
-  Discipline's rise, peak, and decline.
+- **Koldunic Sorcery across four books, spanning three eras.**
+  `v20-tome-of-secrets` (Dark Ages, 1242) shows the Tzimisce Voivode
+  Rustovich trying to reunify the practice against the "Many-Headed
+  Seekers" rival faction, tied to the ongoing Tremere/Tzimisce Gargoyle
+  war. `secrets-of-thaumaturgy-revised` (Revised era, year 2000) shows a
+  further-developed Koldunic Sorcery with named Ways (Wind, Dead Water)
+  reawakening explicitly because of "the destruction of the Tremere
+  antitribu." `guide-to-the-sabbat-revised` (Revised era, 1999/2000,
+  essentially contemporaneous with `secrets-of-thaumaturgy-revised`)
+  independently gives the same cause from the Sabbat's own side: a
+  Chapter Four sidebar states plainly that "now that the Tremere
+  influence has suddenly vanished from the sect, the ancient sorcerous
+  arts of the Fiends seem to be on the rise in popularity," and the
+  book repeatedly treats the Tremere antitribu's disappearance as a
+  recent, unexplained, still-unfolding sect crisis (Ch. One, Ch. Two's
+  Blood Brothers entry, Ch. Four's main Thaumaturgy section) rather than
+  settled history — two independently-written books from the same
+  product-line year converging on the identical causal link without
+  cross-referencing each other. `v20-rites-of-the-blood` (modern V20)
+  treats Koldunism as "extremely rare in the modern world" and centers
+  it on the elemental entity Kupala. Read together in chronological
+  (in-fiction) order for a rare complete arc of one Discipline's rise,
+  peak, and decline — and note that by `v20-rites-of-the-blood`'s era
+  the Tremere antitribu are clearly active again (see the antitribu
+  vignettes cited under "The Telyavic/Telyavelic Tremere" above), so the
+  vanishing both Revised-era books describe as an open mystery reads as
+  a temporary in-fiction crisis rather than a permanent status change —
+  no book in this library narrates how or when it was resolved.
 - **Voudoun Necromancy's origin, and its parallel in Setite Wanga.**
   `secrets-of-thaumaturgy-revised` gives the origin story of Voudoun
   Necromancy: the Lasombra Gisele Hemmet becomes an unwilling houngan of
@@ -725,7 +778,15 @@ threads connect.
   the Pact's ban, plus a refined, fully-infertile successor creation
   ritual, the Sabbat's Blood Brothers (a joint Tzimisce/Tremere-antitribu
   project explicitly built to avoid the first Gargoyles' flaws).
-  Separately, `v20-rites-of-the-blood` also names this same Meerlinda as
+  `guide-to-the-sabbat-revised` (Ch. Two) is this library's fuller,
+  earlier classic-line source for the Blood Brothers themselves — an
+  artificially engineered, Storyteller-only hive-mind bloodline
+  ("Frankensteins") created via the Sanguinus Discipline "by the newly
+  vanished Tremere antitribu and a few twisted Tzimisce sorcerers,"
+  organized into "circles" and incapable of Embracing — consistent with,
+  and considerably more detailed than, `v20-rites-of-the-blood`'s brief
+  Montmartre Pact-era mention. Separately, `v20-rites-of-the-blood` also
+  names this same Meerlinda as
   the Tremere elder who, decades later (1764), suggested the name for
   the Camarilla's anti-infernalist Josian archons — worth noting if a
   question touches Meerlinda specifically, since the two roles (Gargoyle-
@@ -873,6 +934,14 @@ unresolved across the V20 and classic-line books — gains further entries:
   a direct, named cross-reference spanning 12 years of publication,
   rather than an independent convergence — see "Blood magic and sorcery
   across the library" above.
+- **secrets-of-thaumaturgy-revised and guide-to-the-sabbat-revised
+  independently agree that the Tremere antitribu had recently vanished**
+  as of their shared c. 1999-2000 publication window, and both
+  independently attribute a resurgence of Tzimisce Koldunic Sorcery to
+  that same vanishing — two books from the same product line and year,
+  written from opposite sides (Tremere-focused vs. Sabbat-focused),
+  converging on one unresolved plot point without cross-referencing each
+  other — see "Koldunic Sorcery across four books" above.
 
 ## Points of disagreement or tension
 - **Carthage** (Brujah utopia vs. death-cult vs. neither vs. Ventrue-
@@ -988,6 +1057,17 @@ lines together by default.
   `clanbook-ravnos-revised` first (the epicenter account) before
   `clanbook-malkavian-revised` and `clanbook-gangrel-revised` (which
   reference it more obliquely).
+- **New to the Sabbat specifically**: `guide-to-the-sabbat-revised` is
+  fully standalone (it's a sect guide, not tied to any single clanbook),
+  and is this library's only book centered on the Sabbat as a sect
+  rather than mentioning it in passing from a Camarilla-clan point of
+  view. Read it before treating any other book's brief Sabbat mentions
+  (e.g. the antitribu vignettes referenced under "The Telyavic/Telyavelic
+  Tremere" above) as the fuller picture. If the question also touches
+  Koldunic Sorcery or the Tremere antitribu's disappearance, read it
+  alongside `secrets-of-thaumaturgy-revised` (same product-line year,
+  opposite vantage point — see "Koldunic Sorcery across four books"
+  above).
 - **New to the classic Dark Ages line**: `clanbook-salubri` and
   `wind-from-the-east` are both standalone; read them before or after
   `v20-dark-ages` as suits the question — they cover overlapping ground
@@ -1084,9 +1164,15 @@ python3 scripts/query_library.py v20-tome-of-secrets/book_chunks.db secrets-of-t
 ```bash
 python3 scripts/query_library.py blood-sacrifice-revised/book_chunks.db v20-rites-of-the-blood/book_chunks.db "wangateur"
 ```
+```bash
+python3 scripts/query_library.py secrets-of-thaumaturgy-revised/book_chunks.db guide-to-the-sabbat-revised/book_chunks.db "koldunic"
+```
+```bash
+python3 scripts/query_library.py v20-core/book_chunks.db guide-to-the-sabbat-revised/book_chunks.db "Path of Caine"
+```
 (Replace the slug paths with whichever subset of books is relevant to
 the question — the slug names shown above are what appears in the
-grouped results, so use them as written. With 27 books in the library,
+grouped results, so use them as written. With 28 books in the library,
 prefer naming only the 2-5 books actually relevant to a question rather
 than querying all of them at once. Note: FTS5 treats hyphens specially,
 so querying a literal hyphenated term like "Dur-An-Ki" can error out or

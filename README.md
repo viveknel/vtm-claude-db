@@ -1,6 +1,6 @@
 # Vampire: The Masquerade Searchable Library
 
-A searchable index of 27 *Vampire: The Masquerade* sourcebooks, spanning
+A searchable index of 28 *Vampire: The Masquerade* sourcebooks, spanning
 three product lines/editions, built so that questions about the setting
 can be answered without re-reading the original PDFs. Each book has its
 own self-contained bundle (thematic index + full-text search database),
@@ -30,11 +30,16 @@ lines" section for the full explanation, but briefly:
   departs from strict metaplot continuity in places — see point 5 below.
 - **Classic Revised Edition** (the 13 `clanbook-*-revised` books, plus
   the Discipline-focused `secrets-of-thaumaturgy-revised` and its direct
-  sequel `blood-sacrifice-revised`) — the *original* modern-nights
-  clanbook line, published c. 1998-2002, predating V20 by over a decade.
-  V20's modern-nights material is a later, edited retelling of much of
-  what these books cover — expect broad agreement on core clan identity
-  but real differences in specific historical claims and details.
+  sequel `blood-sacrifice-revised`, and the sect-focused `guide-to-the-
+  sabbat-revised`) — the *original* modern-nights clanbook line,
+  published c. 1998-2002, predating V20 by over a decade. V20's
+  modern-nights material is a later, edited retelling of much of what
+  these books cover — expect broad agreement on core clan identity but
+  real differences in specific historical claims and details.
+  `guide-to-the-sabbat-revised` is this line's only sect-wide (rather
+  than single-clan) book, and this library's primary classic-line source
+  for the Sabbat's antitribu clans/bloodlines and seven of V20's eleven
+  Paths of Enlightenment.
 - **Classic Dark Ages** (`clanbook-salubri`, `wind-from-the-east`,
   `dark-ages-inquisitor`) — the *original*, pre-V20 Dark Ages product
   line, also from the late 1990s/early 2000s. `v20-dark-ages` is a
@@ -186,12 +191,13 @@ blood curse" section.
 | Clanbook: Ravnos | `clanbook-ravnos-revised/` | 106 |
 | Blood Magic: Secrets of Thaumaturgy | `secrets-of-thaumaturgy-revised/` | 145 |
 | Blood Sacrifice: The Thaumaturgy Companion (direct sequel to the above) | `blood-sacrifice-revised/` | 101 |
+| Guide to the Sabbat (sect-wide sourcebook, not a single-clan clanbook) | `guide-to-the-sabbat-revised/` | 226 |
 
 ```
 .
 ├── README.md                ← you are here
 ├── library_index.md          ← cross-book synthesis: editions, themes,
-│                                agreements, and disagreements across all 27 books
+│                                agreements, and disagreements across all 28 books
 ├── scripts/
 │   └── query_library.py      ← search several books' databases at once
 ├── v20-core/
@@ -225,7 +231,8 @@ blood curse" section.
 ├── clanbook-giovanni-revised/
 ├── clanbook-ravnos-revised/
 ├── secrets-of-thaumaturgy-revised/
-└── blood-sacrifice-revised/
+├── blood-sacrifice-revised/
+└── guide-to-the-sabbat-revised/
     (each of the above folders has the same four items as v20-core/,
     except dark-ages-inquisitor/, which has a fifth: v20-conversion.md —
     see that folder's own README.md)
